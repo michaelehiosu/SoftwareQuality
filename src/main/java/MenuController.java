@@ -9,19 +9,13 @@ import java.io.IOException;
 
 import javax.swing.JOptionPane;
 
-/** <p>The controller for the menu</p>
- * @author Ian F. Darwin, ian@darwinsys.com, Gert Florijn, Sylvia Stuurman
- * @version 1.1 2002/12/17 Gert Florijn
- * @version 1.2 2003/11/19 Sylvia Stuurman
- * @version 1.3 2004/08/17 Sylvia Stuurman
- * @version 1.4 2007/07/16 Sylvia Stuurman
- * @version 1.5 2010/03/03 Sylvia Stuurman
- * @version 1.6 2014/05/16 Sylvia Stuurman
- */
+// The controller for the menu
+
+
 public class MenuController extends MenuBar {
 	
-	private Frame parent; // the frame, only used as parent for the Dialogs
-	private Presentation presentation; // Commands are given to the presentation
+	private Frame parent;
+	private Presentation presentation;
 	
 	private static final long serialVersionUID = 227L;
 	
@@ -121,10 +115,10 @@ public class MenuController extends MenuBar {
 				AboutBox.show(parent);
 			}
 		});
-		setHelpMenu(helpMenu);		// needed for portability (Motif, etc.).
+		setHelpMenu(helpMenu);	// needed for portability (Motif, etc.).
 	}
 
-// create a menu item
+
 	public MenuItem mkMenuItem(String name) {
 		return new MenuItem(name, new MenuShortcut(name.charAt(0)));
 	}

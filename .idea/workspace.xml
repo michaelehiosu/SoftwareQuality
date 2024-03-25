@@ -5,55 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4abfe5b3-cd38-4cc8-92bf-c091af4861f3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/COPYRIGHT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JabberPoint.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jabberpoint-IT.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jabberpoint.dtd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logo-woordmerk_ou.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Jabberpoint-IT/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Jabberpoint-IT/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Jabberpoint-IT/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Jabberpoint-IT/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Jabberpoint-IT/Jabberpoint-IT.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Jabberpoint-IT/out/production/Jabberpoint-IT/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Jabberpoint-IT/out/production/Jabberpoint-IT/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Jabberpoint-IT/out/production/Jabberpoint-IT/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Jabberpoint-IT/out/production/Jabberpoint-IT/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Jabberpoint-IT/out/production/Jabberpoint-IT/Jabberpoint-IT.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serclogo_fc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AboutBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Accessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AssessorFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BitmapItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DemoPresentation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JabberPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Jabberpoint-IT.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/KeyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Presentation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Slide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SlideItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SlideViewerComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SlideViewerFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Style.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TextItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/XMLAccessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/out/production/Jabberpoint-IT/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/out/production/Jabberpoint-IT/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/out/production/Jabberpoint-IT/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/out/production/Jabberpoint-IT/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/out/production/Jabberpoint-IT/Jabberpoint-IT.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jabberpoint-IT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Jabberpoint-IT.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AboutBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AboutBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Accessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Accessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AssessorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AssessorFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BitmapItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BitmapItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DemoPresentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DemoPresentation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JabberPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JabberPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/KeyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/KeyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Presentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Presentation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Slide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Slide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SlideItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SlideItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SlideViewerComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SlideViewerComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SlideViewerFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SlideViewerFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Style.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Style.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TextItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TextItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/XMLAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/XMLAccessor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,22 +47,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Naga/Desktop/Software Quality/FinalAssignment/SoftwareQuality",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Naga/Desktop/Software Quality/FinalAssignment/SoftwareQuality&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="JabberPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JabberPoint" />
@@ -122,7 +91,8 @@
       <workItem from="1709851022369" duration="707000" />
       <workItem from="1710165326932" duration="790000" />
       <workItem from="1710360519831" duration="5357000" />
-      <workItem from="1711353584247" duration="682000" />
+      <workItem from="1711353584247" duration="3006000" />
+      <workItem from="1711387609652" duration="1407000" />
     </task>
     <servers />
   </component>
