@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.List;
 
 
 /* Presentation maintains the slides in the presentation.
@@ -7,19 +8,19 @@ There is only instance of this class. */
 public class Presentation
 {
     private String showTitle;
-    private ArrayList<Slide> showList = null;
-    private int currentSlideNumber = 0;
-    private SlideViewerComponent slideViewComponent = null;
+    private ArrayList<Slide> showList;
+    private int currentSlideNumber;
+    private List<PresentationObserver> presentationObservers;
 
     public Presentation()
     {
-        slideViewComponent = null;
+        this.presentationObservers = new ArrayList<>();
         clear();
     }
 
-    public Presentation(SlideViewerComponent slideViewerComponent)
+    public Presentation(PresentationObserver observer)
     {
-        this.slideViewComponent = slideViewerComponent;
+        setShowView(observer);
         clear();
     }
 
@@ -33,14 +34,14 @@ public class Presentation
         return showTitle;
     }
 
-    public void setTitle(String nt)
+    public void setTitle(String title)
     {
-        showTitle = nt;
+        showTitle = title;
     }
 
-    public void setShowView(SlideViewerComponent slideViewerComponent)
+    public void setShowView(PresentationObserver observer)
     {
-        this.slideViewComponent = slideViewerComponent;
+        this.presentationObservers.add(observer);
     }
 
 
@@ -53,9 +54,14 @@ public class Presentation
     public void setSlideNumber(int number)
     {
         currentSlideNumber = number;
-        if (slideViewComponent != null)
+        updateObservers();
+    }
+
+    private void updateObservers()
+    {
+        for (PresentationObserver observer : presentationObservers)
         {
-            slideViewComponent.update(this, getCurrentSlide());
+                observer.update(getCurrentSlide());
         }
     }
 
@@ -85,7 +91,7 @@ public class Presentation
     }
 
 
-    public void append(Slide slide)
+    public void appendSlide(Slide slide)
     {
         showList.add(slide);
     }
@@ -106,8 +112,8 @@ public class Presentation
         return getSlide(currentSlideNumber);
     }
 
-    public void exit(int n)
+    public void exit(int status)
     {
-        System.exit(n);
+        System.exit(status);
     }
 }

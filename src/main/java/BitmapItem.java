@@ -10,48 +10,53 @@ public class BitmapItem extends SlideItem
 {
     protected static final String FILE = "File ";
     protected static final String NOTFOUND = " not found";
-    private BufferedImage bufferedImage;
     private final String imageName;
+    private BufferedImage bufferedImage;
 
 
-    public BitmapItem(int level, String name)
+    public BitmapItem(int level, String imageName)
     {
         super(level);
-        imageName = name;
-        try
-        {
-            bufferedImage = ImageIO.read(new File(imageName));
-        }
-        catch (IOException e)
-        {
-            System.err.println(FILE + imageName + NOTFOUND);
-        }
+        this.imageName = imageName;
+        setBufferedImage();
     }
-
 
     public BitmapItem()
     {
         this(0, null);
     }
 
+    private void setBufferedImage()
+    {
+        try
+        {
+            this.bufferedImage = ImageIO.read(new File(imageName));
+        }
+        catch (IOException e)
+        {
+            System.err.println(FILE + imageName + NOTFOUND);
+        }
+
+    }
 
     public String getName()
     {
-        return imageName;
+        return this.imageName;
     }
 
 
-    public Rectangle getBoundingBox(Graphics g, ImageObserver observer, float scale, Style myStyle)
+    @Override
+    public Rectangle getBoundingBox(Graphics graphics, ImageObserver imageObserver, float scale, Style style)
     {
-        return new Rectangle((int) (myStyle.indent * scale), 0, (int) (bufferedImage.getWidth(observer) * scale), ((int) (myStyle.leading * scale)) + (int) (bufferedImage.getHeight(observer) * scale));
+        return new Rectangle((int) (style.indent * scale), 0, (int) (bufferedImage.getWidth(imageObserver) * scale), ((int) (style.leading * scale)) + (int) (bufferedImage.getHeight(imageObserver) * scale));
     }
 
-
-    public void draw(int x, int y, float scale, Graphics g, Style myStyle, ImageObserver observer)
+    @Override
+    public void draw(int x, int y, float scale, Graphics graphics, Style style, ImageObserver imageObserver)
     {
-        int width = x + (int) (myStyle.indent * scale);
-        int height = y + (int) (myStyle.leading * scale);
-        g.drawImage(bufferedImage, width, height, (int) (bufferedImage.getWidth(observer) * scale), (int) (bufferedImage.getHeight(observer) * scale), observer);
+        int width = x + (int) (style.indent * scale);
+        int height = y + (int) (style.leading * scale);
+        graphics.drawImage(bufferedImage, width, height, (int) (bufferedImage.getWidth(imageObserver) * scale), (int) (bufferedImage.getHeight(imageObserver) * scale), imageObserver);
     }
 
     public String toString()

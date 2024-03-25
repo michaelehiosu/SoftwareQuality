@@ -19,8 +19,7 @@ public abstract class SlideItem
     }
 
 
-    public abstract Rectangle getBoundingBox(Graphics g, ImageObserver observer, float scale, Style style);
+    public abstract Rectangle getBoundingBox(Graphics graphics, ImageObserver imageObserver, float scale, Style style);
 
-
-    public abstract void draw(int x, int y, float scale, Graphics g, Style style, ImageObserver observer);
+    public abstract void draw(int x, int y, float scale, Graphics graphics, Style style, ImageObserver imageObserver);
 }

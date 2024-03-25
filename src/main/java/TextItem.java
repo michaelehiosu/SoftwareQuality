@@ -12,18 +12,18 @@ import java.util.List;
 
 public class TextItem extends SlideItem
 {
-    private static final String EMPTYTEXT = "No Text Given";
+//    private static final String EMPTYTEXT = "No Text Given";
     private final String text;
 
-    public TextItem(int level, String string)
+    public TextItem(int level, String text)
     {
         super(level);
-        text = string;
+        this.text = text;
     }
 
     public TextItem()
     {
-        this(0, EMPTYTEXT);
+        this(0, "");
     }
 
     public String getText()
@@ -33,15 +33,16 @@ public class TextItem extends SlideItem
 
     public AttributedString getAttributedString(Style style, float scale)
     {
-        AttributedString attrStr = new AttributedString(getText());
-        attrStr.addAttribute(TextAttribute.FONT, style.getFont(scale), 0, text.length());
-        return attrStr;
+        AttributedString attributedString = new AttributedString(getText());
+        attributedString.addAttribute(TextAttribute.FONT, style.getFont(scale), 0, text.length());
+        return attributedString;
     }
 
-    public Rectangle getBoundingBox(Graphics g, ImageObserver observer, float scale, Style myStyle)
+    @Override
+    public Rectangle getBoundingBox(Graphics graphics, ImageObserver observer, float scale, Style style)
     {
-        List<TextLayout> layouts = getLayouts(g, myStyle, scale);
-        int xsize = 0, ysize = (int) (myStyle.leading * scale);
+        List<TextLayout> layouts = getLayouts(graphics, style, scale);
+        int xsize = 0, ysize = (int) (style.leading * scale);
         Iterator<TextLayout> iterator = layouts.iterator();
         while (iterator.hasNext())
         {
@@ -57,20 +58,23 @@ public class TextItem extends SlideItem
             }
             ysize += layout.getLeading() + layout.getDescent();
         }
-        return new Rectangle((int) (myStyle.indent * scale), 0, xsize, ysize);
+        return new Rectangle((int) (style.indent * scale), 0, xsize, ysize);
     }
 
 
-    public void draw(int x, int y, float scale, Graphics g, Style myStyle, ImageObserver o)
+    @Override
+    public void draw(int x, int y, float scale, Graphics graphics, Style style, ImageObserver imageObserver)
     {
         if (text == null || text.length() == 0)
         {
             return;
         }
-        List<TextLayout> layouts = getLayouts(g, myStyle, scale);
-        Point pen = new Point(x + (int) (myStyle.indent * scale), y + (int) (myStyle.leading * scale));
-        Graphics2D g2d = (Graphics2D) g;
-        g2d.setColor(myStyle.color);
+
+        List<TextLayout> layouts = getLayouts(graphics, style, scale);
+        Point pen = new Point(x + (int) (style.indent * scale), y + (int) (style.leading * scale));
+        Graphics2D g2d = (Graphics2D) graphics;
+        g2d.setColor(style.color);
+
         Iterator<TextLayout> it = layouts.iterator();
         while (it.hasNext())
         {
@@ -81,14 +85,14 @@ public class TextItem extends SlideItem
         }
     }
 
-    private List<TextLayout> getLayouts(Graphics g, Style s, float scale)
+    private List<TextLayout> getLayouts(Graphics graphics, Style style, float scale)
     {
         List<TextLayout> layouts = new ArrayList<TextLayout>();
-        AttributedString attrStr = getAttributedString(s, scale);
-        Graphics2D g2d = (Graphics2D) g;
+        AttributedString attrStr = getAttributedString(style, scale);
+        Graphics2D g2d = (Graphics2D) graphics;
         FontRenderContext frc = g2d.getFontRenderContext();
         LineBreakMeasurer measurer = new LineBreakMeasurer(attrStr.getIterator(), frc);
-        float wrappingWidth = (Slide.WIDTH - s.indent) * scale;
+        float wrappingWidth = (Slide.WIDTH - style.indent) * scale;
         while (measurer.getPosition() < getText().length())
         {
             TextLayout layout = measurer.nextLayout(wrappingWidth);

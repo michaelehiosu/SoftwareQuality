@@ -6,22 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="4abfe5b3-cd38-4cc8-92bf-c091af4861f3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AboutBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AboutBox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Accessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Accessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AssessorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AssessorFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BitmapItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BitmapItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DemoPresentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DemoPresentation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JabberPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JabberPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/KeyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/KeyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MenuController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Presentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Presentation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PresentationObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PresentationObserver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Slide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Slide.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SlideItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SlideItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SlideViewerComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SlideViewerComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SlideViewerFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SlideViewerFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Style.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Style.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TextItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TextItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/XMLAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/XMLAccessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -59,10 +55,15 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
+    "settings.editor.selected.configurable": "preferences.editor",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="JabberPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JabberPoint" />
@@ -92,7 +93,7 @@
       <workItem from="1710165326932" duration="790000" />
       <workItem from="1710360519831" duration="5357000" />
       <workItem from="1711353584247" duration="3006000" />
-      <workItem from="1711387609652" duration="4428000" />
+      <workItem from="1711387609652" duration="17447000" />
     </task>
     <servers />
   </component>
