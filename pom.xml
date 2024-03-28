@@ -22,15 +22,8 @@
                         <artifactId>maven-checkstyle-plugin</artifactId>
                         <version>3.3.1</version>
                         <configuration>
-                            <configLocation>checkstyle.xml</configLocation>
+                            <configLocation>sun_checks.xml</configLocation>
                         </configuration>
-                        <executions>
-                            <execution>
-                                <goals>
-                                    <goal>check</goal>
-                                </goals>
-                            </execution>
-                        </executions>
                     </plugin>
             </plugins>
     </pluginManagement>
