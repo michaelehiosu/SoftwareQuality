@@ -5,18 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4abfe5b3-cd38-4cc8-92bf-c091af4861f3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Accessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Accessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BitmapItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BitmapItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DemoPresentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DemoPresentation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Presentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Presentation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PresentationObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PresentationObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Slide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Slide.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SlideItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SlideItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SlideViewerComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SlideViewerComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TextItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TextItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/XMLAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/XMLAccessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jabberpoint-IT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Jabberpoint-IT.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +33,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2dJqv1W44PK78ApRcBTzfRQW1PV" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -47,21 +46,26 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Naga/Desktop/Software Quality/FinalAssignment/SoftwareQuality",
+    "git-widget-placeholder": "clean-code",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/HP/Desktop/Software Quality/Github-Jabberpoint/SoftwareQuality/configuration_1_3.dtd",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.editor",
+    "settings.editor.selected.configurable": "preferences.externalResources",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\Desktop\Software Quality\Github-Jabberpoint\SoftwareQuality" />
     </key>
   </component>
   <component name="RunManager">
@@ -77,6 +81,13 @@
         <item itemvalue="Application.JabberPoint" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -99,5 +110,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -9,8 +9,5 @@
         <module name="Jabberpoint-IT" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Jabberpoint-IT" target="19" />
-    </bytecodeTargetLevel>
   </component>
 </project>
