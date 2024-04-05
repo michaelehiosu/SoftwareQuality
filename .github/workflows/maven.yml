@@ -10,9 +10,9 @@ name: SoftwareQualityBuild
 
 on:
   push:
-    branches: [ "clean-code"]
+    branches: [ "development"]
   pull_request:
-    branches: [ "clean-code"]
+    branches: [ "development"]
 
 jobs:
   build:
