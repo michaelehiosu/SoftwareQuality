@@ -1,5 +1,6 @@
 package menu;
 
+import components.AboutBox;
 import presentation.Presentation;
 
 import java.awt.Frame;
@@ -8,11 +9,12 @@ import java.awt.MenuItem;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class NewFileMenu extends SubMenus {
+public class AboutHelpMenu extends SubMenus implements MenuActions {
 
-  protected static final String NEW = "New";
+  protected static final String ABOUT = "About";
 
-  public NewFileMenu(final Presentation presentation, final Frame parent) {
+
+  public AboutHelpMenu(final Presentation presentation, final Frame parent) {
     super(presentation, parent);
   }
 
@@ -21,8 +23,7 @@ public class NewFileMenu extends SubMenus {
     menuItem.addActionListener(new ActionListener() {
       @Override
       public void actionPerformed(ActionEvent actionEvent) {
-        presentation.clear();
-        parent.repaint();
+        AboutBox.show(parent);
       }
     });
   }
@@ -30,8 +31,9 @@ public class NewFileMenu extends SubMenus {
 
   @Override
   public String getName() {
-    return NEW;
+    return ABOUT;
   }
+
 
   @Override
   public Menu getMenu() {

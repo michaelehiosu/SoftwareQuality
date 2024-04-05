@@ -1,5 +1,6 @@
-package presentation;
+package assessor;
 
+import presentation.Presentation;
 import slides.BitmapItem;
 import slides.Slide;
 import slides.SlideItem;

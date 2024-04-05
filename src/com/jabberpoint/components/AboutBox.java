@@ -1,4 +1,4 @@
-package presentation;
+package components;
 
 import javax.swing.JOptionPane;
 import java.awt.Frame;

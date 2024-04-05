@@ -1,8 +1,8 @@
 package menu;
 
-import presentation.Accessor;
+import assessor.Accessor;
 import presentation.Presentation;
-import presentation.XMLAccessor;
+import assessor.XMLAccessor;
 
 import javax.swing.JOptionPane;
 import java.awt.Frame;

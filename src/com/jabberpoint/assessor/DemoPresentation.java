@@ -1,5 +1,6 @@
-package presentation;
+package assessor;
 
+import presentation.Presentation;
 import slides.BitmapItem;
 import slides.Slide;
 
@@ -61,7 +62,7 @@ class DemoPresentation extends Accessor {
     slide.appendText(2, "use File->Open from the menu.");
     slide.appendText(1, " ");
     slide.appendText(1, "This is the end of the presentation.");
-    BitmapItem bitmap = new BitmapItem(1, "MainProgram.JabberPoint.gif");
+    BitmapItem bitmap = new BitmapItem(1, "src/com/resources/images/JabberPoint.gif");
     slide.appendSlideItem(bitmap);
     presentation.appendSlide(slide);
   }
