@@ -1,4 +1,6 @@
-package presentation;
+package assessor;
+
+import presentation.Presentation;
 
 import java.io.IOException;
 

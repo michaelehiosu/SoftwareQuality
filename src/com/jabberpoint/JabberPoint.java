@@ -1,7 +1,5 @@
-package mainprogram;
-
 import components.SlideViewerFrame;
-import presentation.AssessorFactory;
+import assessor.AssessorFactory;
 import presentation.Presentation;
 import slides.Style;
 
