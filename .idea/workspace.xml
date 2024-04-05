@@ -8,53 +8,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4abfe5b3-cd38-4cc8-92bf-c091af4861f3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyleidea-libs/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jabberpoint-IT.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/checkstyle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/linter.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/checkstyle.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkstyle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeStyle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dump.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dump.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jabberpoint.dtd" beforeDir="false" afterPath="$PROJECT_DIR$/jabberpoint.dtd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Components/SlideViewerComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/components/SlideViewerComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Components/SlideViewerFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/components/SlideViewerFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainProgram/JabberPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mainprogram/JabberPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Menu/AboutHelpMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menu/AboutHelpMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Menu/ExitFileMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menu/ExitFileMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Menu/FileMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menu/FileMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Menu/GotoViewMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menu/GotoViewMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Menu/HelpMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menu/HelpMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Menu/KeyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menu/KeyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Menu/MenuActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menu/MenuActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Menu/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menu/MenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Menu/NewFileMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menu/NewFileMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Menu/NextViewMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menu/NextViewMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Menu/OpenFileMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menu/OpenFileMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Menu/PreviousViewMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menu/PreviousViewMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Menu/SaveFileMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menu/SaveFileMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Menu/SubMenus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menu/SubMenus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Menu/ViewMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menu/ViewMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Presentation/AboutBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/presentation/AboutBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Presentation/Accessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/presentation/Accessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Presentation/AssessorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/presentation/AssessorFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Presentation/DemoPresentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/presentation/DemoPresentation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Presentation/Presentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/presentation/Presentation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Presentation/PresentationObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/presentation/PresentationObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Presentation/XMLAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/presentation/XMLAccessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Slides/BitmapItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/slides/BitmapItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Slides/Slide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/slides/Slide.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Slides/SlideItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/slides/SlideItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Slides/Style.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/slides/Style.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Slides/TextItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/slides/TextItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sun_checks.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4abfe5b3-cd38-4cc8-92bf-c091af4861f3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -163,7 +117,7 @@
       <workItem from="1711353584247" duration="3006000" />
       <workItem from="1711387609652" duration="17447000" />
       <workItem from="1712253484421" duration="10086000" />
-      <workItem from="1712307512580" duration="999000" />
+      <workItem from="1712307512580" duration="1464000" />
     </task>
     <servers />
   </component>
