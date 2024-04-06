@@ -9,74 +9,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4abfe5b3-cd38-4cc8-92bf-c091af4861f3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/CoverUsage.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/CoverSettingsProjectConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/components/SlideViewerFrameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/menu/ViewMenuTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/presentation/PresentationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/slides/BitmapItemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/slides/SlideTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/slides/StyleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/slides/TextItemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jabberpoint-IT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Jabberpoint-IT.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/JabberPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/JabberPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/Jabberpoint-IT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/Jabberpoint-IT.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/assessor/Accessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/assessor/Accessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/assessor/AssessorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/assessor/AssessorFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/assessor/DemoPresentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/assessor/DemoPresentation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/assessor/XMLAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/assessor/XMLAccessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/components/AboutBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/components/AboutBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/components/SlideViewerComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/components/SlideViewerComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/components/SlideViewerFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/components/SlideViewerFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/menu/AboutHelpMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/menu/AboutHelpMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/menu/ExitFileMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/menu/ExitFileMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/menu/FileMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/menu/FileMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/menu/GotoViewMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/menu/GotoViewMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/menu/HelpMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/menu/HelpMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/menu/KeyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/menu/KeyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/menu/MenuActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/menu/MenuActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/menu/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/menu/MenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/menu/NewFileMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/menu/NewFileMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/menu/NextViewMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/menu/NextViewMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/menu/OpenFileMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/menu/OpenFileMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/menu/PreviousViewMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/menu/PreviousViewMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/menu/SaveFileMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/menu/SaveFileMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/menu/SubMenus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/menu/SubMenus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/menu/ViewMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/menu/ViewMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/out/production/Jabberpoint-IT/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/out/production/Jabberpoint-IT/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/out/production/Jabberpoint-IT/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/out/production/Jabberpoint-IT/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/out/production/Jabberpoint-IT/Jabberpoint-IT.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/presentation/Presentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/presentation/Presentation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/presentation/PresentationObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/presentation/PresentationObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/slides/BitmapItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/slides/BitmapItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/slides/Slide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/slides/Slide.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/slides/SlideItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/slides/SlideItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/slides/Style.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/slides/Style.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/slides/TextItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/slides/TextItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/resources/images/JabberPoint.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/resources/images/JabberPoint.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/resources/images/logo-woordmerk_ou.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/resources/images/logo-woordmerk_ou.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/resources/images/serclogo_fc.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/resources/images/serclogo_fc.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Jabberpoint-IT.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/images/JabberPoint.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/images/logo-woordmerk_ou.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/images/serclogo_fc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/out/production/Jabberpoint-IT/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/out/production/Jabberpoint-IT/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/out/production/Jabberpoint-IT/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/out/production/Jabberpoint-IT/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/out/production/Jabberpoint-IT/Jabberpoint-IT.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jabberpoint/menu/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/menu/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/jabberpoint/assessor/DemoPresentationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/assessor/DemoPresentationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classpath.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/classpath.index" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -92,48 +49,76 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/lib/src.zip!/java.desktop/java/awt/MenuBar.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/jabberpoint/assessor/AssessorFactory.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2dJqv1W44PK78ApRcBTzfRQW1PV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;clean-code&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/Naga/Desktop/Software Quality/FinalAssignment/SoftwareQuality/src/main/java/MainProgram&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Naga/Desktop/Software Quality/Design/Jabberpoint-IT&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.AboutBoxTest.executor": "Run",
+    "JUnit.AboutHelpMenuTest.executor": "Run",
+    "JUnit.BitmapItemTest.executor": "Run",
+    "JUnit.BitmapItemTest.testDraw.executor": "Run",
+    "JUnit.BitmapItemTest.testGetBoundingBox.executor": "Run",
+    "JUnit.BitmapItemTest.testGettersAndSetters.executor": "Run",
+    "JUnit.BitmapItemTest.testNewBitmapItem.executor": "Run",
+    "JUnit.DemoPresentationTest.executor": "Run",
+    "JUnit.DemoPresentationTest.testLoadFile2.executor": "Coverage",
+    "JUnit.DemoPresentationTest.testSaveFile.executor": "Run",
+    "JUnit.MenuControllerTest.executor": "Run",
+    "JUnit.MenuControllerTest.testAddMenuActions.executor": "Run",
+    "JUnit.PresentationTest.executor": "Coverage",
+    "JUnit.PresentationTest.testNewPresentation2.executor": "Run",
+    "JUnit.SlideTest.executor": "Run",
+    "JUnit.SlideTest.testAppendSlideItem.executor": "Run",
+    "JUnit.SlideViewerComponentTest.executor": "Run",
+    "JUnit.SlideViewerComponentTest.testPaintComponent.executor": "Run",
+    "JUnit.SlideViewerComponentTest.testUpdate.executor": "Run",
+    "JUnit.StyleTest.executor": "Run",
+    "JUnit.StyleTest.testNewStyle.executor": "Run",
+    "JUnit.TextItemTest.executor": "Run",
+    "JUnit.ViewMenuTest.executor": "Run",
+    "JUnit.ViewMenuTest.testPerformAction.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "testing",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/Naga/Desktop/Software Quality/FinalAssignment/SoftwareQuality/src/main/java/MainProgram",
+    "last_opened_file_path": "C:/Users/Naga/Desktop/Software Quality/Design/Jabberpoint-IT",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.build.tools.auto.reload": "ALL",
+    "settings.editor.selected.configurable": "com.diffblue.cover.intellij.overridetestdir",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
@@ -159,67 +144,54 @@
       <recent name="com.jabberpoint.assessor" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DemoPresentationTest">
-    <configuration name="JabberPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JabberPoint" />
+  <component name="RunManager" selected="JUnit.XMLAccessorTest.testLoadSlideItem">
+    <configuration name="SlideTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Jabberpoint-IT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="com.jabberpoint.slides.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AssessorFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Jabberpoint-IT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jabberpoint.assessor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jabberpoint.assessor" />
-      <option name="MAIN_CLASS_NAME" value="com.jabberpoint.assessor.AssessorFactoryTest" />
+      <option name="PACKAGE_NAME" value="com.jabberpoint.slides" />
+      <option name="MAIN_CLASS_NAME" value="com.jabberpoint.slides.SlideTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AssessorFactoryTest.testCreateAssessorFactory_ShouldReturnDemoPresentation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StyleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Jabberpoint-IT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jabberpoint.assessor.*" />
+          <option name="PATTERN" value="com.jabberpoint.slides.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.jabberpoint.assessor" />
-      <option name="MAIN_CLASS_NAME" value="com.jabberpoint.assessor.AssessorFactoryTest" />
-      <option name="METHOD_NAME" value="testCreateAssessorFactory_ShouldReturnDemoPresentation" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoPresentationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Jabberpoint-IT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jabberpoint.assessor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jabberpoint.assessor" />
-      <option name="MAIN_CLASS_NAME" value="com.jabberpoint.assessor.DemoPresentationTest" />
+      <option name="PACKAGE_NAME" value="com.jabberpoint.slides" />
+      <option name="MAIN_CLASS_NAME" value="com.jabberpoint.slides.StyleTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoPresentationTest.testSaveFile_throwsIOException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StyleTest.testNewStyle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Jabberpoint-IT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jabberpoint.slides.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jabberpoint.slides" />
+      <option name="MAIN_CLASS_NAME" value="com.jabberpoint.slides.StyleTest" />
+      <option name="METHOD_NAME" value="testNewStyle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XMLAccessorTest.testLoadSlideItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Jabberpoint-IT" />
       <extension name="coverage">
         <pattern>
@@ -228,16 +200,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.jabberpoint.assessor" />
-      <option name="MAIN_CLASS_NAME" value="com.jabberpoint.assessor.DemoPresentationTest" />
-      <option name="METHOD_NAME" value="testSaveFile_throwsIOException" />
+      <option name="MAIN_CLASS_NAME" value="com.jabberpoint.assessor.XMLAccessorTest" />
+      <option name="METHOD_NAME" value="testLoadSlideItem" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test in Jabberpoint-IT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Jabberpoint-IT" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Write tests for class Accessor" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration">
       <module name="Jabberpoint-IT" />
-      <settings run-config-name="Write tests for class Accessor" include-system-env-vars="true">
+      <settings run-config-name="Write tests for class Accessor" include-system-env-vars="true" skeleton-tests-only="false">
         <jvm-args />
         <selection-scope>class</selection-scope>
         <selected-element key="com.jabberpoint.assessor.Accessor" />
@@ -246,35 +226,36 @@
     </configuration>
     <configuration name="Write tests for class AssessorFactory" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration">
       <module name="Jabberpoint-IT" />
-      <settings run-config-name="Write tests for class AssessorFactory" include-system-env-vars="true">
+      <settings run-config-name="Write tests for class AssessorFactory" include-system-env-vars="true" skeleton-tests-only="false">
         <jvm-args />
         <selection-scope>class</selection-scope>
         <selected-element key="com.jabberpoint.assessor.AssessorFactory" />
       </settings>
       <method v="2" />
     </configuration>
-    <configuration name="Write tests for class SlideViewerComponent" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
+    <configuration name="Write tests for method SlideViewerComponentTest.testUpdate" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration">
       <module name="Jabberpoint-IT" />
-      <settings run-config-name="Write tests for class SlideViewerComponent" include-system-env-vars="true">
+      <settings run-config-name="Write tests for method SlideViewerComponentTest.testUpdate" include-system-env-vars="true" skeleton-tests-only="false">
         <jvm-args />
-        <selection-scope>class</selection-scope>
-        <selected-element key="com.jabberpoint.components.SlideViewerComponent" />
+        <selection-scope>method</selection-scope>
+        <selected-element key="com.jabberpoint.components.SlideViewerComponentTest.testUpdate:()V" />
       </settings>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DemoPresentationTest" />
-        <item itemvalue="JUnit.DemoPresentationTest.testSaveFile_throwsIOException" />
-        <item itemvalue="JUnit.AssessorFactoryTest" />
-        <item itemvalue="JUnit.AssessorFactoryTest.testCreateAssessorFactory_ShouldReturnDemoPresentation" />
+        <item itemvalue="JUnit.XMLAccessorTest.testLoadSlideItem" />
+        <item itemvalue="JUnit.test in Jabberpoint-IT" />
+        <item itemvalue="JUnit.StyleTest" />
+        <item itemvalue="JUnit.StyleTest.testNewStyle" />
+        <item itemvalue="JUnit.SlideTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-3183f394aec4-74f1fbcb" />
       </set>
     </attachedChunks>
   </component>
@@ -302,6 +283,7 @@
       <workItem from="1712410454552" duration="337000" />
       <workItem from="1712410809744" duration="2078000" />
       <workItem from="1712412907377" duration="1071000" />
+      <workItem from="1712438104659" duration="2522000" />
     </task>
     <servers />
   </component>
@@ -325,5 +307,13 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SoftwareQuality$DemoPresentationTest_testLoadFile2.ic" NAME="DemoPresentationTest.testLoadFile2 Coverage Results" MODIFIED="1712435609220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.jabberpoint.assessor.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SoftwareQuality$PresentationTest.ic" NAME="PresentationTest Coverage Results" MODIFIED="1712438516609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.jabberpoint.presentation.*</FILTER>
+    </SUITE>
   </component>
 </project>

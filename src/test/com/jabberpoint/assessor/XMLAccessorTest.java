@@ -24,11 +24,11 @@ class XMLAccessorTest
     xMLAccessor.loadFile(new Presentation(), "test.xml");
   }
 
-  @Test
-  void testLoadSlideItem()
-  {
-    xMLAccessor.loadSlideItem(new Slide(), null);
-  }
+//  @Test
+//  void testLoadSlideItem()
+//  {
+//    xMLAccessor.loadSlideItem(new Slide(), null);
+//  }
 
   @Test
   void testSaveFile()

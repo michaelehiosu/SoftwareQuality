@@ -21,6 +21,7 @@ public class MenuController extends MenuBar
   {
     this.parent = frame;
     this.presentation = presentation;
+    this.menuItem = new MenuItem();
     createMenu(menuActions);
   }
 

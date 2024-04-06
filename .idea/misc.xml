@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
+    <option name="workspaceImportForciblyTurnedOn" value="true" />
   </component>
   <component name="ProjectResources">
     <resource url="https://checkstyle.org/dtds/configuration_1_3.dtd" location="$PROJECT_DIR$/configuration_1_3.dtd" />
