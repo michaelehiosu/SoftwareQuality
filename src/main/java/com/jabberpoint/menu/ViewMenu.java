@@ -36,7 +36,7 @@ public class ViewMenu implements MenuActions
   {
     for (MenuActions child : children)
     {
-      menuItem = mkMenuItem(child.getName());
+      menuItem = makeMenuItem(child.getName());
       viewMenu.add(menuItem);
       child.performAction(menuItem);
     }
@@ -49,7 +49,7 @@ public class ViewMenu implements MenuActions
   }
 
 
-  public MenuItem mkMenuItem(String name)
+  public MenuItem makeMenuItem(String name)
   {
     return new MenuItem(name, new MenuShortcut(name.charAt(0)));
   }

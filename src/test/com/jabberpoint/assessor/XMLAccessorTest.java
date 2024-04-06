@@ -4,6 +4,9 @@ import com.jabberpoint.presentation.Presentation;
 import com.jabberpoint.slides.Slide;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import java.io.IOException;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class XMLAccessorTest
@@ -21,18 +24,25 @@ class XMLAccessorTest
   @Test
   void testLoadFile_correctFileName_shouldNotThrowIOException()
   {
-    xMLAccessor.loadFile(new Presentation(), "test.xml");
+    assertDoesNotThrow(() -> {
+      xMLAccessor.loadFile(new Presentation(), "test.xml");
+    });
   }
 
-//  @Test
-//  void testLoadSlideItem()
-//  {
-//    xMLAccessor.loadSlideItem(new Slide(), null);
-//  }
+  @Test
+  void testLoadFile_incorrectFileName_shouldThrowIOException()
+  {
+    assertThrows(IOException.class,() -> {
+      xMLAccessor.loadFile(new Presentation(), "tes.xml");
+    });
+  }
+
 
   @Test
-  void testSaveFile()
+  void testSaveFile_shouldNotThrowIOException()
   {
-
+    assertDoesNotThrow(() -> {
+      xMLAccessor.saveFile(presentation, "dump.xml");
+    });
   }
 }

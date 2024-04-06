@@ -9,21 +9,14 @@ import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 class StyleTest {
-  /**
-   * Method under test: {@link Style#createStyles()}
-   */
+
   @Test
   void testCreateStyles() {
-    // TODO: Diffblue Cover was only able to create a partial test for this method:
-    //   Diffblue AI was unable to find a test
-
     // Arrange and Act
     Style.createStyles();
   }
 
-  /**
-   * Method under test: {@link Style#getStyle(int)}
-   */
+
   @Test
   void testGetStyle() {
     // Arrange, Act and Assert
@@ -32,9 +25,7 @@ class StyleTest {
     assertSame(expectedColorSpace, color.darker().getColorSpace());
   }
 
-  /**
-   * Method under test: {@link Style#getStyle(int)}
-   */
+
   @Test
   void testGetStyle2() {
     // Arrange, Act and Assert
@@ -43,9 +34,7 @@ class StyleTest {
     assertSame(expectedColorSpace, color.darker().getColorSpace());
   }
 
-  /**
-   * Method under test: {@link Style#getStyle(int)}
-   */
+
   @Test
   void testNewStyle() throws NumberFormatException {
     // Arrange and Act
@@ -53,9 +42,7 @@ class StyleTest {
 
   }
 
-  /**
-   * Method under test: {@link Style#Style(int, Color, int, int)}
-   */
+
   @Test
   void testNewStyle2() throws NumberFormatException {
     // Arrange, Act and Assert
@@ -64,13 +51,9 @@ class StyleTest {
     assertSame(expectedColorSpace, color.darker().getColorSpace());
   }
 
-  /**
-   * Method under test: {@link Style#toString()}
-   */
+
   @Test
   void testGetFont() {
-    // TODO: Diffblue Cover was only able to create a partial test for this method:
-    //   Diffblue AI was unable to find a test
 
     // Arrange and Act
     Style.getStyle(1).getFont(10.0f);

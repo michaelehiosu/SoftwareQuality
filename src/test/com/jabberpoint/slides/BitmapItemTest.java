@@ -3,12 +3,7 @@ package com.jabberpoint.slides;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-import java.awt.Graphics;
-import java.awt.Rectangle;
-import java.awt.image.ImageObserver;
-import com.jabberpoint.slides.Style;
 
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 class BitmapItemTest {
@@ -30,9 +25,6 @@ class BitmapItemTest {
   }
 
 
-  /**
-   * Method under test: {@link BitmapItem#BitmapItem()}
-   */
   @Test
   void testNewBitmapItem() {
     // Arrange and Act
@@ -44,9 +36,7 @@ class BitmapItemTest {
   }
 
 
-  /**
-   * Method under test: {@link BitmapItem#BitmapItem(int, String)}
-   */
+
   @Test
   void testNewBitmapItem2() {
     // Arrange and Act

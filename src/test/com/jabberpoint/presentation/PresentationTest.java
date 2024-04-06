@@ -11,35 +11,26 @@ import static org.mockito.Mockito.mockStatic;
 import static org.mockito.Mockito.verify;
 
 import com.jabberpoint.slides.Slide;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.mockito.MockedStatic;
 
 class PresentationTest {
-  /**
-   * Method under test: {@link Presentation#getSize()}
-   */
+
   @Test
   void testGetSize() {
     // Arrange, Act and Assert
     assertEquals(0, (new Presentation()).getSize());
   }
 
-  /**
-   * Method under test: {@link Presentation#setShowView(PresentationObserver)}
-   */
+
   @Test
   void testSetShowView() {
-    // TODO: Diffblue Cover was only able to create a partial test for this method:
-    //   Diffblue AI was unable to find a test
 
     // Arrange and Act
     (new Presentation()).setShowView(mock(PresentationObserver.class));
   }
 
-  /**
-   * Method under test: {@link Presentation#setSlideNumber(int)}
-   */
+
   @Test
   void testSetSlideNumber() {
     // Arrange
@@ -52,9 +43,7 @@ class PresentationTest {
     assertNull(presentation.getCurrentSlide());
   }
 
-  /**
-   * Method under test: {@link Presentation#prevSlide()}
-   */
+
   @Test
   void testPrevSlide() {
     // Arrange
@@ -67,9 +56,7 @@ class PresentationTest {
     assertEquals(0, presentation.getSize());
   }
 
-  /**
-   * Method under test: {@link Presentation#nextSlide()}
-   */
+
   @Test
   void testNextSlide() {
     // Arrange
@@ -82,9 +69,7 @@ class PresentationTest {
     assertEquals(0, presentation.getSize());
   }
 
-  /**
-   * Method under test: {@link Presentation#nextSlide()}
-   */
+
   @Test
   void testNextSlide2() {
     // Arrange
@@ -98,9 +83,7 @@ class PresentationTest {
     assertEquals(0, presentation.getSlideNumber());
   }
 
-  /**
-   * Method under test: {@link Presentation#clear()}
-   */
+
   @Test
   void testClear() {
     // Arrange
@@ -114,9 +97,7 @@ class PresentationTest {
     assertEquals(0, presentation.getSize());
   }
 
-  /**
-   * Method under test: {@link Presentation#appendSlide(Slide)}
-   */
+
   @Test
   void testAppendSlide() {
     // Arrange
@@ -129,18 +110,14 @@ class PresentationTest {
     assertEquals(1, presentation.getSize());
   }
 
-  /**
-   * Method under test: {@link Presentation#getSlide(int)}
-   */
+
   @Test
   void testGetSlide() {
     // Arrange, Act and Assert
     assertNull((new Presentation()).getSlide(10));
   }
 
-  /**
-   * Method under test: {@link Presentation#getSlide(int)}
-   */
+
   @Test
   void testGetSlide2() {
     // Arrange
@@ -162,18 +139,14 @@ class PresentationTest {
     assertSame(slide, presentation.getSlide(10));
   }
 
-  /**
-   * Method under test: {@link Presentation#getCurrentSlide()}
-   */
+
   @Test
   void testGetCurrentSlide() {
     // Arrange, Act and Assert
     assertNull((new Presentation()).getCurrentSlide());
   }
 
-  /**
-   * Method under test: {@link Presentation#exit(int)}
-   */
+
   @Test
   void testExit() {
     try (MockedStatic<Runtime> mockRuntime = mockStatic(Runtime.class)) {
@@ -193,15 +166,7 @@ class PresentationTest {
     }
   }
 
-  /**
-   * Methods under test:
-   *
-   * <ul>
-   *   <li>{@link Presentation#setTitle(String)}
-   *   <li>{@link Presentation#getSlideNumber()}
-   *   <li>{@link Presentation#getTitle()}
-   * </ul>
-   */
+
   @Test
   void testGettersAndSetters() {
     // Arrange
@@ -216,9 +181,7 @@ class PresentationTest {
     assertEquals(-1, actualSlideNumber);
   }
 
-  /**
-   * Method under test: {@link Presentation#Presentation()}
-   */
+
   @Test
   void testNewPresentation() {
     // Arrange and Act
@@ -229,18 +192,4 @@ class PresentationTest {
     assertEquals(0, actualPresentation.getSize());
   }
 
-  /**
-   * Method under test: {@link Presentation#Presentation(PresentationObserver)}
-   */
-//  @Test
-//  @Disabled("TODO")
-//  void testNewPresentation2() {
-//    //   java.lang.NullPointerException: Cannot invoke "java.util.Collection.add(Object)" because "that" is null
-//    //       at com.jabberpoint.presentation.Presentation.setShowView(Presentation.java:49)
-//    //       at com.jabberpoint.presentation.Presentation.<init>(Presentation.java:28)
-//    //   See https://diff.blue/R013 to resolve this issue.
-//
-//    // Arrange and Act
-//    new Presentation(mock(PresentationObserver.class));
-//  }
 }

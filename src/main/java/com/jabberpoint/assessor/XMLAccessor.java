@@ -43,7 +43,7 @@ public class XMLAccessor extends Accessor
 
   }
 
-  public void loadFile(Presentation presentation, String filename)
+  public void loadFile(Presentation presentation, String filename) throws IOException
   {
     try
     {
@@ -52,6 +52,7 @@ public class XMLAccessor extends Accessor
     } catch (IOException iox)
     {
       System.err.println(iox);
+      throw new IOException("File not found");
     } catch (SAXException sax)
     {
       System.err.println(sax.getMessage());
@@ -157,7 +158,6 @@ public class XMLAccessor extends Accessor
     {
       setPresentation(presentation);
     }
-
     PrintWriter fileWriter = new PrintWriter(new FileWriter(filename));
     writeXMLHeader(fileWriter);
     writePresentationTitle(fileWriter, this.presentation.getTitle());
