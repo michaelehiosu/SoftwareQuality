@@ -3,9 +3,9 @@ name: Check Formatting and Coding Standards
 
 on:
   push:
-    branches: [ "testing"]
+    branches: [ "main", "development", "clean-code", "testing"]
   pull_request:
-    branches: [ "testing"]
+    branches: [ "main", "development", "clean-code", "testing"]
 
 jobs:
   build:
