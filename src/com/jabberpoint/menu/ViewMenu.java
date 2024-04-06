@@ -7,31 +7,35 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class ViewMenu implements MenuActions {
-
+public class ViewMenu implements MenuActions
+{
   protected static final String VIEW = "View";
   private List<MenuActions> children;
   private Menu viewMenu;
 
-
-  public ViewMenu() {
+  public ViewMenu()
+  {
     this.children = new ArrayList<>();
     this.viewMenu = new Menu(VIEW);
   }
 
 
-  public List<MenuActions> getChildren() {
+  public List<MenuActions> getChildren()
+  {
     return children;
   }
 
 
-  public void addChildren(MenuActions child) {
+  public void addChildren(MenuActions child)
+  {
     this.children.add(child);
   }
 
   @Override
-  public void performAction(MenuItem menuItem) {
-    for (MenuActions child : children) {
+  public void performAction(MenuItem menuItem)
+  {
+    for (MenuActions child : children)
+    {
       menuItem = mkMenuItem(child.getName());
       viewMenu.add(menuItem);
       child.performAction(menuItem);
@@ -39,17 +43,20 @@ public class ViewMenu implements MenuActions {
   }
 
   @Override
-  public String getName() {
+  public String getName()
+  {
     return VIEW;
   }
 
 
-  public MenuItem mkMenuItem(String name) {
+  public MenuItem mkMenuItem(String name)
+  {
     return new MenuItem(name, new MenuShortcut(name.charAt(0)));
   }
 
   @Override
-  public Menu getMenu() {
+  public Menu getMenu()
+  {
     return this.viewMenu;
   }
 }

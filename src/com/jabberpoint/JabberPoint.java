@@ -1,5 +1,5 @@
-import components.SlideViewerFrame;
 import assessor.AssessorFactory;
+import components.SlideViewerFrame;
 import presentation.Presentation;
 import slides.Style;
 
@@ -14,26 +14,33 @@ import java.io.IOException;
  * of the terms in the COPYRIGHT.txt file.
  **/
 
-public class JabberPoint {
+public class JabberPoint
+{
   protected static final String IOERR = "IO Error: ";
   protected static final String JABERR = "Jabberpoint Error ";
   protected static final String JABVERSION = "Jabberpoint 1.6 - OU version";
 
 
-  public static void main(String[] argv) {
+  public static void main(String[] argv)
+  {
 
     Style.createStyles();
     Presentation presentation = new Presentation();
     new SlideViewerFrame(JABVERSION, presentation);
     AssessorFactory factory = new AssessorFactory();
-    try {
-      if (argv.length == 0) {
+    try
+    {
+      if (argv.length == 0)
+      {
         factory.createAssessorFactory("Demo").loadFile(presentation, "");
-      } else {
+      }
+      else
+      {
         factory.createAssessorFactory("XML").loadFile(presentation, argv[0]);
       }
       presentation.setSlideNumber(0);
-    } catch (IOException ex) {
+    } catch (IOException ex)
+    {
       JOptionPane.showMessageDialog(null, IOERR + ex, JABERR, JOptionPane.ERROR_MESSAGE);
     }
   }

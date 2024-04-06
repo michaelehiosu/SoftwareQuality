@@ -4,12 +4,14 @@ import presentation.Presentation;
 import slides.BitmapItem;
 import slides.Slide;
 
-class DemoPresentation extends Accessor {
+class DemoPresentation extends Accessor
+{
   public static final String DEMO_NAME = "Demonstration presentation";
   private Presentation presentation;
 
   @Override
-  public void loadFile(Presentation presentation, String filename) {
+  public void loadFile(Presentation presentation, String filename)
+  {
     addPresentation(presentation);
     setPresentationTitle();
     createFirstSlide();
@@ -17,15 +19,18 @@ class DemoPresentation extends Accessor {
     createThirdSlide();
   }
 
-  private void addPresentation(Presentation presentation) {
+  private void addPresentation(Presentation presentation)
+  {
     this.presentation = presentation;
   }
 
-  private void setPresentationTitle() {
+  private void setPresentationTitle()
+  {
     this.presentation.setTitle(DEMO_NAME);
   }
 
-  private void createFirstSlide() {
+  private void createFirstSlide()
+  {
     Slide slide = new Slide();
     slide.setTitle("MainProgram.JabberPoint");
     slide.appendText(1, "The Java Presentation.Presentation Tool");
@@ -42,7 +47,8 @@ class DemoPresentation extends Accessor {
   }
 
 
-  private void createSecondSlide() {
+  private void createSecondSlide()
+  {
     Slide slide = new Slide();
     slide.setTitle("Demonstration of levels and stijlen");
     slide.appendText(1, "Level 1");
@@ -55,7 +61,8 @@ class DemoPresentation extends Accessor {
     presentation.appendSlide(slide);
   }
 
-  private void createThirdSlide() {
+  private void createThirdSlide()
+  {
     Slide slide = new Slide();
     slide.setTitle("The third slide");
     slide.appendText(1, "To open a new presentation,");
@@ -68,7 +75,8 @@ class DemoPresentation extends Accessor {
   }
 
   @Override
-  public void saveFile(Presentation presentation, String unusedFilename) throws IllegalStateException {
+  public void saveFile(Presentation presentation, String unusedFilename) throws IllegalStateException
+  {
     throw new IllegalStateException("Save As->Demo! called");
   }
 }

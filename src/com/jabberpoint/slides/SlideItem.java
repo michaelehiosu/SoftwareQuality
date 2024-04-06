@@ -8,15 +8,18 @@ import java.awt.image.ImageObserver;
  * The abstract class for an item on a slide
  **/
 
-public abstract class SlideItem {
+public abstract class SlideItem
+{
   private int level = 0;
 
-  public SlideItem(int lev) {
+  public SlideItem(int lev)
+  {
     level = lev;
   }
 
 
-  public int getLevel() {
+  public int getLevel()
+  {
     return level;
   }
 

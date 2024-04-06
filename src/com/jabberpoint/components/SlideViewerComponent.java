@@ -15,7 +15,8 @@ import java.awt.Rectangle;
 
 // Components.SlideViewerComponent is a graphical component that can show slides
 
-public class SlideViewerComponent extends JComponent implements PresentationObserver {
+public class SlideViewerComponent extends JComponent implements PresentationObserver
+{
   private static final long serialVersionUID = 227L;
   private static final Color BGCOLOR = Color.white;
   private static final Color COLOR = Color.black;
@@ -29,20 +30,24 @@ public class SlideViewerComponent extends JComponent implements PresentationObse
   private Presentation presentation = null;
   private JFrame frame = null;
 
-  public SlideViewerComponent(Presentation presentation, JFrame frame) {
+  public SlideViewerComponent(Presentation presentation, JFrame frame)
+  {
     setBackground(BGCOLOR);
     this.presentation = presentation;
     labelFont = new Font(FONTNAME, FONTSTYLE, FONTHEIGHT);
     this.frame = frame;
   }
 
-  public Dimension getPreferredSize() {
+  public Dimension getPreferredSize()
+  {
     return new Dimension(Slide.WIDTH, Slide.HEIGHT);
   }
 
   @Override
-  public void update(Slide data) {
-    if (data == null) {
+  public void update(Slide data)
+  {
+    if (data == null)
+    {
       repaint();
       return;
     }
@@ -53,36 +58,43 @@ public class SlideViewerComponent extends JComponent implements PresentationObse
   }
 
 
-  public void paintComponent(Graphics graphics) {
+  public void paintComponent(Graphics graphics)
+  {
     fillArea(graphics);
-    if (shouldDrawSlide()) {
+    if (shouldDrawSlide())
+    {
       drawSlideText(graphics);
       drawSlide(graphics);
     }
   }
 
-  private void fillArea(Graphics graphics) {
+  private void fillArea(Graphics graphics)
+  {
     graphics.setColor(BGCOLOR);
     graphics.fillRect(0, 0, getSize().width, getSize().height);
   }
 
-  private boolean shouldDrawSlide() {
+  private boolean shouldDrawSlide()
+  {
     return presentation.getSlideNumber() >= 0 && slide != null;
   }
 
-  private void drawSlideText(Graphics graphics) {
+  private void drawSlideText(Graphics graphics)
+  {
     graphics.setFont(labelFont);
     graphics.setColor(COLOR);
     graphics.drawString("Slides.Slide " + (1 + presentation.getSlideNumber()) + " of " + presentation.getSize(), XPOS, YPOS);
   }
 
-  private void drawSlide(Graphics graphics) {
+  private void drawSlide(Graphics graphics)
+  {
     Rectangle area = createRectangle();
     slide.draw(graphics, area, this);
   }
 
 
-  private Rectangle createRectangle() {
+  private Rectangle createRectangle()
+  {
     return new Rectangle(0, YPOS, getWidth(), getHeight() - YPOS);
   }
 }

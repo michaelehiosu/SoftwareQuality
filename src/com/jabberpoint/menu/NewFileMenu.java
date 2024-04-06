@@ -8,19 +8,22 @@ import java.awt.MenuItem;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class NewFileMenu extends SubMenus {
-
+public class NewFileMenu extends SubMenus
+{
   protected static final String NEW = "New";
-
-  public NewFileMenu(Presentation presentation, Frame parent) {
+  public NewFileMenu(Presentation presentation, Frame parent)
+  {
     super(presentation, parent);
   }
 
   @Override
-  public void performAction(final MenuItem menuItem) {
-    menuItem.addActionListener(new ActionListener() {
+  public void performAction(final MenuItem menuItem)
+  {
+    menuItem.addActionListener(new ActionListener()
+    {
       @Override
-      public void actionPerformed(ActionEvent actionEvent) {
+      public void actionPerformed(ActionEvent actionEvent)
+      {
         presentation.clear();
         parent.repaint();
       }
@@ -29,12 +32,14 @@ public class NewFileMenu extends SubMenus {
 
 
   @Override
-  public String getName() {
+  public String getName()
+  {
     return NEW;
   }
 
   @Override
-  public Menu getMenu() {
+  public Menu getMenu()
+  {
     return null;
   }
 }

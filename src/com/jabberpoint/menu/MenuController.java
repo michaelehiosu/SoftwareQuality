@@ -11,26 +11,29 @@ import java.util.Objects;
 /**
  * The controller for the menu
  **/
-public class MenuController extends MenuBar {
-
+public class MenuController extends MenuBar
+{
   private static final long serialVersionUID = 227L;
   private final Frame parent;
   private final Presentation presentation;
   private MenuItem menuItem;
 
-  public MenuController(final Frame frame, final Presentation presentation, final ArrayList<MenuActions> menuActions) {
+  public MenuController(final Frame frame, final Presentation presentation, final ArrayList<MenuActions> menuActions)
+  {
     this.parent = frame;
     this.presentation = presentation;
     createMenu(menuActions);
   }
 
-  public MenuController(final Frame frame, final Presentation presentation) {
+  public MenuController(final Frame frame, final Presentation presentation)
+  {
     this.parent = frame;
     this.presentation = presentation;
     createDefaultMenu();
   }
 
-  private void createDefaultMenu() {
+  private void createDefaultMenu()
+  {
     FileMenu fileMenu = new FileMenu();
     OpenFileMenu openFileMenu = new OpenFileMenu(presentation, parent);
     NewFileMenu newFileMenu = new NewFileMenu(presentation, parent);
@@ -61,12 +64,17 @@ public class MenuController extends MenuBar {
     createMenu(menuActions);
   }
 
-  private void createMenu(final ArrayList<MenuActions> menuActions) {
-    for (MenuActions component : menuActions) {
+  private void createMenu(final ArrayList<MenuActions> menuActions)
+  {
+    for (MenuActions component : menuActions)
+    {
       component.performAction(menuItem);
-      if (Objects.equals(component.getName(), "HELP")) {
+      if (Objects.equals(component.getName(), "HELP"))
+      {
         setHelpMenu(component.getMenu()); // needed for portability (Motif, etc.)
-      } else {
+      }
+      else
+      {
         add(component.getMenu());
       }
     }

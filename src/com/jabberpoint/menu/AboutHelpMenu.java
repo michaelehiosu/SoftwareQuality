@@ -9,20 +9,23 @@ import java.awt.MenuItem;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class AboutHelpMenu extends SubMenus implements MenuActions {
-
+public class AboutHelpMenu extends SubMenus implements MenuActions
+{
   protected static final String ABOUT = "About";
 
-
-  public AboutHelpMenu(final Presentation presentation, final Frame parent) {
+  public AboutHelpMenu(final Presentation presentation, final Frame parent)
+  {
     super(presentation, parent);
   }
 
   @Override
-  public void performAction(final MenuItem menuItem) {
-    menuItem.addActionListener(new ActionListener() {
+  public void performAction(final MenuItem menuItem)
+  {
+    menuItem.addActionListener(new ActionListener()
+    {
       @Override
-      public void actionPerformed(ActionEvent actionEvent) {
+      public void actionPerformed(ActionEvent actionEvent)
+      {
         AboutBox.show(parent);
       }
     });
@@ -30,13 +33,15 @@ public class AboutHelpMenu extends SubMenus implements MenuActions {
 
 
   @Override
-  public String getName() {
+  public String getName()
+  {
     return ABOUT;
   }
 
 
   @Override
-  public Menu getMenu() {
+  public Menu getMenu()
+  {
     return null;
   }
 }

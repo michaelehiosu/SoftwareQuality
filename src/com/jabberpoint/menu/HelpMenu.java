@@ -7,9 +7,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class HelpMenu implements MenuActions {
-
-
+public class HelpMenu implements MenuActions
+{
   protected static final String HELP = "Help";
 
   private final List<MenuActions> children;
@@ -17,24 +16,29 @@ public class HelpMenu implements MenuActions {
   private final Menu helpMenu;
 
 
-  public HelpMenu() {
+  public HelpMenu()
+  {
     this.children = new ArrayList<>();
     this.helpMenu = new Menu(HELP);
   }
 
 
-  public List<MenuActions> getChildren() {
+  public List<MenuActions> getChildren()
+  {
     return children;
   }
 
 
-  public void addChildren(MenuActions child) {
+  public void addChildren(MenuActions child)
+  {
     this.children.add(child);
   }
 
   @Override
-  public void performAction(MenuItem menuItem) {
-    for (MenuActions child : children) {
+  public void performAction(MenuItem menuItem)
+  {
+    for (MenuActions child : children)
+    {
       menuItem = makeMenuItem(child.getName());
       helpMenu.add(menuItem);
       child.performAction(menuItem);
@@ -42,17 +46,20 @@ public class HelpMenu implements MenuActions {
   }
 
   @Override
-  public String getName() {
+  public String getName()
+  {
     return HELP;
   }
 
   @Override
-  public Menu getMenu() {
+  public Menu getMenu()
+  {
     return this.helpMenu;
   }
 
 
-  public MenuItem makeMenuItem(String name) {
+  public MenuItem makeMenuItem(String name)
+  {
     return new MenuItem(name, new MenuShortcut(name.charAt(0)));
   }
 }

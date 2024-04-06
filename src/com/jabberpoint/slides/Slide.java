@@ -7,45 +7,55 @@ import java.util.Vector;
 
 // A slide. This class has a drawing functionality.
 
-public class Slide {
+public class Slide
+{
   public static final int WIDTH = 1200;
   public static final int HEIGHT = 800;
   protected String title;
   protected Vector<SlideItem> items;
 
-  public Slide() {
+  public Slide()
+  {
     items = new Vector<>();
   }
 
-  public void appendSlideItem(SlideItem slideItem) {
+  public void appendSlideItem(SlideItem slideItem)
+  {
     items.addElement(slideItem);
   }
 
-  public String getTitle() {
+  public String getTitle()
+  {
     return title;
   }
 
-  public void setTitle(String newTitle) {
+  public void setTitle(String newTitle)
+  {
     title = newTitle;
   }
 
-  public void appendText(int level, String message) {
+  public void appendText(int level, String message)
+  {
     appendSlideItem(new TextItem(level, message));
   }
 
-  public SlideItem getSlideItem(int number) {
+  public SlideItem getSlideItem(int number)
+  {
     return items.elementAt(number);
   }
 
-  public Vector<SlideItem> getSlideItems() {
+  public Vector<SlideItem> getSlideItems()
+  {
     return items;
   }
 
-  public int getSize() {
+  public int getSize()
+  {
     return items.size();
   }
 
-  public void draw(Graphics graphics, Rectangle area, ImageObserver imageObserver) {
+  public void draw(Graphics graphics, Rectangle area, ImageObserver imageObserver)
+  {
     float scale = getScale(area);
     int y = area.y;
     // Title is handled separately
@@ -53,7 +63,8 @@ public class Slide {
     Style style = Style.getStyle(slideItem.getLevel());
     slideItem.draw(area.x, y, scale, graphics, style, imageObserver);
     y += slideItem.getBoundingBox(graphics, imageObserver, scale, style).height;
-    for (int number = 0; number < getSize(); number++) {
+    for (int number = 0; number < getSize(); number++)
+    {
       slideItem = getSlideItems().elementAt(number);
       style = Style.getStyle(slideItem.getLevel());
       slideItem.draw(area.x, y, scale, graphics, style, imageObserver);
@@ -61,7 +72,8 @@ public class Slide {
     }
   }
 
-  private float getScale(Rectangle area) {
+  private float getScale(Rectangle area)
+  {
     return Math.min(((float) area.width) / ((float) WIDTH), ((float) area.height) / ((float) HEIGHT));
   }
 }
