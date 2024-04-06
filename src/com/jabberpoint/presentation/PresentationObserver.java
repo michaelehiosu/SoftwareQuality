@@ -2,6 +2,7 @@ package presentation;
 
 import slides.Slide;
 
-public interface PresentationObserver {
+public interface PresentationObserver
+{
   void update(Slide data);
 }

@@ -5,15 +5,19 @@ import presentation.Presentation;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
-public class KeyController extends KeyAdapter {
+public class KeyController extends KeyAdapter
+{
   private final Presentation presentation;
 
-  public KeyController(Presentation p) {
+  public KeyController(Presentation p)
+  {
     presentation = p;
   }
 
-  public void keyPressed(KeyEvent keyEvent) {
-    switch (keyEvent.getKeyCode()) {
+  public void keyPressed(KeyEvent keyEvent)
+  {
+    switch (keyEvent.getKeyCode())
+    {
       case KeyEvent.VK_PAGE_DOWN:
       case KeyEvent.VK_DOWN:
       case KeyEvent.VK_ENTER:

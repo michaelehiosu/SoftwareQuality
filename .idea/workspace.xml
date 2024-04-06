@@ -9,54 +9,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4abfe5b3-cd38-4cc8-92bf-c091af4861f3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/checkstyle.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/checkstyle.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JabberPoint.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/resources/images/JabberPoint.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dump.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dump.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jabberpoint.dtd" beforeDir="false" afterPath="$PROJECT_DIR$/jabberpoint.dtd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logo-woordmerk_ou.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/resources/images/logo-woordmerk_ou.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serclogo_fc.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/resources/images/serclogo_fc.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Jabberpoint-IT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/Jabberpoint-IT.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/components/SlideViewerComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/components/SlideViewerComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/components/SlideViewerFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/components/SlideViewerFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mainprogram/JabberPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/JabberPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menu/AboutHelpMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/menu/AboutHelpMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menu/ExitFileMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/menu/ExitFileMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menu/FileMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/menu/FileMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menu/GotoViewMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/menu/GotoViewMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menu/HelpMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/menu/HelpMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menu/KeyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/menu/KeyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menu/MenuActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/menu/MenuActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menu/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/menu/MenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menu/NewFileMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/menu/NewFileMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menu/NextViewMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/menu/NextViewMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menu/OpenFileMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/menu/OpenFileMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menu/PreviousViewMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/menu/PreviousViewMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menu/SaveFileMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/menu/SaveFileMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menu/SubMenus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/menu/SubMenus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menu/ViewMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/menu/ViewMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/out/production/Jabberpoint-IT/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/out/production/Jabberpoint-IT/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/out/production/Jabberpoint-IT/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/out/production/Jabberpoint-IT/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/out/production/Jabberpoint-IT/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/out/production/Jabberpoint-IT/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/out/production/Jabberpoint-IT/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/out/production/Jabberpoint-IT/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/out/production/Jabberpoint-IT/Jabberpoint-IT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/out/production/Jabberpoint-IT/Jabberpoint-IT.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/presentation/AboutBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/components/AboutBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/presentation/Accessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/assessor/Accessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/presentation/AssessorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/assessor/AssessorFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/presentation/DemoPresentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/assessor/DemoPresentation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/presentation/Presentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/presentation/Presentation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/presentation/PresentationObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/presentation/PresentationObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/presentation/XMLAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/assessor/XMLAccessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/slides/BitmapItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/slides/BitmapItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/slides/Slide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/slides/Slide.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/slides/SlideItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/slides/SlideItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/slides/Style.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/slides/Style.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/slides/TextItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/slides/TextItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/checkstyle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config/checkstyle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/JabberPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/JabberPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/assessor/Accessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/assessor/Accessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/assessor/AssessorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/assessor/AssessorFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/assessor/DemoPresentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/assessor/DemoPresentation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/assessor/XMLAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/assessor/XMLAccessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/components/AboutBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/components/AboutBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/components/SlideViewerComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/components/SlideViewerComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/components/SlideViewerFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/components/SlideViewerFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/menu/AboutHelpMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/menu/AboutHelpMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/menu/ExitFileMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/menu/ExitFileMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/menu/FileMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/menu/FileMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/menu/GotoViewMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/menu/GotoViewMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/menu/HelpMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/menu/HelpMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/menu/KeyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/menu/KeyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/menu/MenuActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/menu/MenuActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/menu/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/menu/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/menu/NewFileMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/menu/NewFileMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/menu/NextViewMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/menu/NextViewMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/menu/OpenFileMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/menu/OpenFileMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/menu/PreviousViewMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/menu/PreviousViewMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/menu/SaveFileMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/menu/SaveFileMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/menu/SubMenus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/menu/SubMenus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/menu/ViewMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/menu/ViewMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/presentation/Presentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/presentation/Presentation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/presentation/PresentationObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/presentation/PresentationObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/slides/BitmapItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/slides/BitmapItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/slides/Slide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/slides/Slide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/slides/SlideItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/slides/SlideItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/slides/Style.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/slides/Style.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jabberpoint/slides/TextItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jabberpoint/slides/TextItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +83,7 @@
     "git-widget-placeholder": "clean-code",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "C:/Users/Naga/Desktop/Software Quality/FinalAssignment/SoftwareQuality/src/main/java/MainProgram",
-    "last_opened_file_path": "C:/Users/Naga/Desktop/Software Quality/Design/Jabberpoint-IT",
+    "last_opened_file_path": "C:/Users/Naga/Desktop/Software Quality/FinalAssignment/SoftwareQuality/.github/workflows",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -116,6 +102,9 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Naga\Desktop\Software Quality\FinalAssignment\SoftwareQuality\.github\workflows" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Naga\Desktop\Software Quality\FinalAssignment\SoftwareQuality\src\com\resources\images" />
       <recent name="C:\Users\Naga\Desktop\Software Quality\FinalAssignment\SoftwareQuality\src\com\jabberpoint\presentation" />
@@ -131,7 +120,7 @@
       <recent name="Menu" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.mainprogram.JabberPoint">
+  <component name="RunManager">
     <configuration name="JabberPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainProgram.JabberPoint" />
       <module name="Jabberpoint-IT" />
@@ -154,7 +143,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.mainprogram.JabberPoint" />
         <item itemvalue="Application.JabberPoint" />
       </list>
     </recent_temporary>

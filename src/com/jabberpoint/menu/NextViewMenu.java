@@ -8,19 +8,24 @@ import java.awt.MenuItem;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class NextViewMenu extends SubMenus {
+public class NextViewMenu extends SubMenus
+{
 
   protected static final String NEXT = "Next";
 
-  public NextViewMenu(final Presentation presentation, final Frame parent) {
+  public NextViewMenu(final Presentation presentation, final Frame parent)
+  {
     super(presentation, parent);
   }
 
   @Override
-  public void performAction(final MenuItem menuItem) {
-    menuItem.addActionListener(new ActionListener() {
+  public void performAction(final MenuItem menuItem)
+  {
+    menuItem.addActionListener(new ActionListener()
+    {
       @Override
-      public void actionPerformed(ActionEvent actionEvent) {
+      public void actionPerformed(ActionEvent actionEvent)
+      {
         presentation.nextSlide();
       }
     });
@@ -28,13 +33,15 @@ public class NextViewMenu extends SubMenus {
 
 
   @Override
-  public String getName() {
+  public String getName()
+  {
     return NEXT;
   }
 
 
   @Override
-  public Menu getMenu() {
+  public Menu getMenu()
+  {
     return null;
   }
 }

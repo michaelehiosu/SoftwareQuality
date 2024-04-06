@@ -10,7 +10,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 
-public class GotoViewMenu extends SubMenus {
+public class GotoViewMenu extends SubMenus
+{
 
 
   protected static final String PAGENR = "Page number?";
@@ -19,15 +20,19 @@ public class GotoViewMenu extends SubMenus {
   protected static final String GOTO = "Go to";
 
 
-  public GotoViewMenu(final Presentation presentation, final Frame parent) {
+  public GotoViewMenu(final Presentation presentation, final Frame parent)
+  {
     super(presentation, parent);
   }
 
 
   @Override
-  public void performAction(final MenuItem menuItem) {
-    menuItem.addActionListener(new ActionListener() {
-      public void actionPerformed(ActionEvent actionEvent) {
+  public void performAction(final MenuItem menuItem)
+  {
+    menuItem.addActionListener(new ActionListener()
+    {
+      public void actionPerformed(ActionEvent actionEvent)
+      {
         String pageNumberStr = JOptionPane.showInputDialog(parent, PAGENR);
         int pageNumber = Integer.parseInt(pageNumberStr);
         presentation.setSlideNumber(pageNumber - 1);
@@ -36,13 +41,15 @@ public class GotoViewMenu extends SubMenus {
   }
 
   @Override
-  public String getName() {
+  public String getName()
+  {
     return GOTO;
   }
 
 
   @Override
-  public Menu getMenu() {
+  public Menu getMenu()
+  {
     return null;
   }
 }

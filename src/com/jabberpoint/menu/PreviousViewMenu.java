@@ -11,19 +11,24 @@ import java.awt.event.ActionListener;
 /**
  * Represents the previous view menu option.
  */
-public class PreviousViewMenu extends SubMenus implements MenuActions {
+public class PreviousViewMenu extends SubMenus implements MenuActions
+{
   protected static final String PREV = "Prev";
 
 
-  public PreviousViewMenu(final Presentation presentation, final Frame parent) {
+  public PreviousViewMenu(final Presentation presentation, final Frame parent)
+  {
     super(presentation, parent);
   }
 
 
   @Override
-  public void performAction(final MenuItem menuItem) {
-    menuItem.addActionListener(new ActionListener() {
-      public void actionPerformed(ActionEvent actionEvent) {
+  public void performAction(final MenuItem menuItem)
+  {
+    menuItem.addActionListener(new ActionListener()
+    {
+      public void actionPerformed(ActionEvent actionEvent)
+      {
         presentation.prevSlide();
       }
     });
@@ -31,13 +36,15 @@ public class PreviousViewMenu extends SubMenus implements MenuActions {
 
 
   @Override
-  public String getName() {
+  public String getName()
+  {
     return PREV;
   }
 
 
   @Override
-  public Menu getMenu() {
+  public Menu getMenu()
+  {
     return null;
   }
 }
