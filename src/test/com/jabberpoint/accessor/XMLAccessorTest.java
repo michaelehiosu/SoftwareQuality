@@ -6,7 +6,8 @@ import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class XMLAccessorTest
 {
@@ -17,22 +18,22 @@ class XMLAccessorTest
   void setUp()
   {
     this.presentation = new Presentation();
-    this.xMLAccessor = new XMLAccessor();
+    this.xMLAccessor = new XMLAccessor(presentation);
   }
 
   @Test
   void testLoadFile_correctFileName_shouldNotThrowIOException()
   {
     assertDoesNotThrow(() -> {
-      xMLAccessor.loadFile(new Presentation(), "test.xml");
+      xMLAccessor.loadFile("test.xml");
     });
   }
 
   @Test
   void testLoadFile_incorrectFileName_shouldThrowIOException()
   {
-    assertThrows(IOException.class,() -> {
-      xMLAccessor.loadFile(new Presentation(), "tes.xml");
+    assertThrows(IOException.class, () -> {
+      xMLAccessor.loadFile("tes.xml");
     });
   }
 
@@ -41,7 +42,7 @@ class XMLAccessorTest
   void testSaveFile_shouldNotThrowIOException()
   {
     assertDoesNotThrow(() -> {
-      xMLAccessor.saveFile(presentation, "dump.xml");
+      xMLAccessor.saveFile("dump.xml");
     });
   }
 }

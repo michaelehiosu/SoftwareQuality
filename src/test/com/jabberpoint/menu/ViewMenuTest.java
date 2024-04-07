@@ -1,20 +1,22 @@
 package com.jabberpoint.menu;
 
+import com.jabberpoint.presentation.Presentation;
+import org.junit.Before;
+import org.junit.Test;
+
 import java.awt.Frame;
 import java.awt.Menu;
 import java.awt.MenuItem;
 import java.util.List;
 
-import com.jabberpoint.presentation.Presentation;
-import org.junit.Before;
-import org.junit.Test;
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
-public class ViewMenuTest {
+public class ViewMenuTest
+{
 
   private ViewMenu viewMenu;
   private NextViewMenu nextViewMenu;
@@ -22,21 +24,24 @@ public class ViewMenuTest {
 
 
   @Before
-  public void setUp() {
+  public void setUp()
+  {
     viewMenu = new ViewMenu();
     nextViewMenu = new NextViewMenu(new Presentation(), frame);
 
   }
 
   @Test
-  public void testAddChildren_shouldAddSuccessfully() {
+  public void testAddChildren_shouldAddSuccessfully()
+  {
     viewMenu.addChildren(nextViewMenu);
     List<MenuActions> children = viewMenu.getChildren();
     assertEquals(1, children.size());
   }
 
   @Test
-  public void testPerformAction() {
+  public void testPerformAction()
+  {
     MenuItem menuItem = mock(MenuItem.class);
 
     MenuActions child = mock(MenuActions.class);
@@ -48,19 +53,22 @@ public class ViewMenuTest {
   }
 
   @Test
-  public void testGetName() {
+  public void testGetName()
+  {
     assertEquals("View", viewMenu.getName());
   }
 
 
   @Test
-  public void testMakeMenuItem() {
+  public void testMakeMenuItem()
+  {
     MenuItem menuItem = viewMenu.makeMenuItem("Test");
     assertEquals("Test", menuItem.getLabel());
   }
 
   @Test
-  public void testGetMenu() {
+  public void testGetMenu()
+  {
     Menu menu = viewMenu.getMenu();
     assertEquals("View", menu.getLabel());
   }

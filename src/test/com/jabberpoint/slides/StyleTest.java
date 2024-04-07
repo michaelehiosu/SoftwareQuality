@@ -1,25 +1,25 @@
 package com.jabberpoint.slides;
 
-import static org.junit.jupiter.api.Assertions.assertSame;
+import org.junit.jupiter.api.Test;
 
 import java.awt.Color;
 import java.awt.color.ColorSpace;
 
-import org.junit.jupiter.api.Disabled;
-import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertSame;
 
-class StyleTest {
+class StyleTest
+{
 
   @Test
-  void testCreateStyles() {
-    // Arrange and Act
+  void testCreateStyles()
+  {
     Style.createStyles();
   }
 
 
   @Test
-  void testGetStyle() {
-    // Arrange, Act and Assert
+  void testGetStyle()
+  {
     Color color = Style.getStyle(1).color;
     ColorSpace expectedColorSpace = color.getColorSpace();
     assertSame(expectedColorSpace, color.darker().getColorSpace());
@@ -27,8 +27,8 @@ class StyleTest {
 
 
   @Test
-  void testGetStyle2() {
-    // Arrange, Act and Assert
+  void testGetStyle2()
+  {
     Color color = Style.getStyle(5).color;
     ColorSpace expectedColorSpace = color.getColorSpace();
     assertSame(expectedColorSpace, color.darker().getColorSpace());
@@ -36,16 +36,15 @@ class StyleTest {
 
 
   @Test
-  void testNewStyle() throws NumberFormatException {
-    // Arrange and Act
+  void testNewStyle() throws NumberFormatException
+  {
     new Style(1, Color.black, 1, 1);
-
   }
 
 
   @Test
-  void testNewStyle2() throws NumberFormatException {
-    // Arrange, Act and Assert
+  void testNewStyle2() throws NumberFormatException
+  {
     Color color = (new Style(1, Color.decode("42"), 1, 1)).color;
     ColorSpace expectedColorSpace = color.getColorSpace();
     assertSame(expectedColorSpace, color.darker().getColorSpace());
@@ -53,9 +52,8 @@ class StyleTest {
 
 
   @Test
-  void testGetFont() {
-
-    // Arrange and Act
+  void testGetFont()
+  {
     Style.getStyle(1).getFont(10.0f);
   }
 }
