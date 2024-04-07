@@ -16,18 +16,20 @@ public class MenuController extends MenuBar
   private final Frame parent;
   private final Presentation presentation;
   private MenuItem menuItem;
+  private ArrayList<MenuActions> mainMenus;
 
-  public MenuController(Frame frame, Presentation presentation, ArrayList<MenuActions> menuActions)
+  public MenuController(Frame frame, Presentation presentation, ArrayList<MenuActions> mainMenus)
   {
     this.parent = frame;
     this.presentation = presentation;
     this.menuItem = new MenuItem();
-    createMenu(menuActions);
+    this.mainMenus = mainMenus;
+    createMenu();
   }
 
-  public MenuController(Frame frame, Presentation presentation)
+  public MenuController(Frame parent, Presentation presentation)
   {
-    this.parent = frame;
+    this.parent = parent;
     this.presentation = presentation;
     createDefaultMenu();
   }
@@ -56,17 +58,18 @@ public class MenuController extends MenuBar
     AboutHelpMenu aboutHelpMenu = new AboutHelpMenu(presentation, parent);
     helpMenu.addChildren(aboutHelpMenu);
 
-    ArrayList<MenuActions> menuActions = new ArrayList<>();
-    menuActions.add(fileMenu);
-    menuActions.add(viewMenu);
-    menuActions.add(helpMenu);
+    ArrayList<MenuActions> mainmenus = new ArrayList<>();
+    mainmenus.add(fileMenu);
+    mainmenus.add(viewMenu);
+    mainmenus.add(helpMenu);
 
-    createMenu(menuActions);
+    this.mainMenus = mainmenus;
+    createMenu();
   }
 
-  private void createMenu(final ArrayList<MenuActions> menuActions)
+  private void createMenu()
   {
-    for (MenuActions component : menuActions)
+    for (MenuActions component : this.mainMenus)
     {
       component.performAction(menuItem);
       if (Objects.equals(component.getName(), "HELP"))

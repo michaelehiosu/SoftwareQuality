@@ -12,7 +12,7 @@ import java.awt.event.ActionListener;
  */
 public class PreviousViewMenu extends SubMenus implements MenuActions
 {
-  protected static final String PREV = "Prev";
+  protected static final String PREVIOUS = "Prev";
 
   public PreviousViewMenu(Presentation presentation, Frame parent)
   {
@@ -35,7 +35,7 @@ public class PreviousViewMenu extends SubMenus implements MenuActions
   @Override
   public String getName()
   {
-    return PREV;
+    return PREVIOUS;
   }
 
 

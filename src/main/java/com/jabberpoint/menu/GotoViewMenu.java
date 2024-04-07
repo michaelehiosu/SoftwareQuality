@@ -13,11 +13,7 @@ import java.awt.event.ActionListener;
 public class GotoViewMenu extends SubMenus
 {
   protected static final String PAGENR = "Page number?";
-
-
   protected static final String GOTO = "Go to";
-
-
   public GotoViewMenu(Presentation presentation, Frame parent)
   {
     super(presentation, parent);

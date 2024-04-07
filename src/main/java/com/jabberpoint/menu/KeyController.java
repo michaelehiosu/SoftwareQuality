@@ -7,9 +7,9 @@ import java.awt.event.KeyEvent;
 public class KeyController extends KeyAdapter
 {
   private final Presentation presentation;
-  public KeyController(Presentation p)
+  public KeyController(Presentation presentation)
   {
-    presentation = p;
+    this.presentation = presentation;
   }
 
   public void keyPressed(KeyEvent keyEvent)

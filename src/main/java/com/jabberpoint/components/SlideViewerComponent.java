@@ -28,14 +28,14 @@ public class SlideViewerComponent extends JComponent implements PresentationObse
   private Slide slide;
   private Font labelFont;
   private Presentation presentation;
-  private JFrame frame;
+  private JFrame parent;
 
-  public SlideViewerComponent(Presentation presentation, JFrame frame)
+  public SlideViewerComponent(Presentation presentation, JFrame parent)
   {
     setBackground(BGCOLOR);
     this.presentation = presentation;
     labelFont = new Font(FONTNAME, FONTSTYLE, FONTHEIGHT);
-    this.frame = frame;
+    this.parent = parent;
   }
 
   public Dimension getPreferredSize()
@@ -54,7 +54,7 @@ public class SlideViewerComponent extends JComponent implements PresentationObse
 
     this.slide = slide;
     repaint();
-    frame.setTitle(presentation.getTitle());
+    parent.setTitle(presentation.getTitle());
   }
 
 

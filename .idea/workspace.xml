@@ -9,19 +9,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4abfe5b3-cd38-4cc8-92bf-c091af4861f3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/components/SlideViewerComponentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/menu/AboutHelpMenuTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/menu/ExitFileMenuTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Jabberpoint_IT_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/jabberpoint/accessor/AccessorFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/accessor/AccessorFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/jabberpoint/accessor/DemoPresentationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/accessor/DemoPresentationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/jabberpoint/accessor/XMLAccessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/accessor/XMLAccessorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/jabberpoint/menu/ViewMenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/menu/ViewMenuTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/jabberpoint/presentation/PresentationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/presentation/PresentationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/jabberpoint/slides/BitmapItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/slides/BitmapItemTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/jabberpoint/slides/SlideTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/slides/SlideTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/jabberpoint/slides/StyleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/slides/StyleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/jabberpoint/slides/TextItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/slides/TextItemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jabberpoint/components/SlideViewerComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/components/SlideViewerComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jabberpoint/menu/GotoViewMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/menu/GotoViewMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jabberpoint/menu/KeyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/menu/KeyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jabberpoint/menu/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/menu/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jabberpoint/menu/PreviousViewMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/menu/PreviousViewMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jabberpoint/slides/SlideItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/slides/SlideItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classpath.index" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/classpath.index" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,56 +61,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.AboutBoxTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AboutHelpMenuTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BitmapItemTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BitmapItemTest.testDraw.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BitmapItemTest.testGetBoundingBox.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BitmapItemTest.testGettersAndSetters.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BitmapItemTest.testNewBitmapItem.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.DemoPresentationTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.DemoPresentationTest.testLoadFile2.executor&quot;: &quot;Coverage&quot;,
-    &quot;JUnit.DemoPresentationTest.testSaveFile.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MenuControllerTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MenuControllerTest.testAddMenuActions.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PresentationTest.executor&quot;: &quot;Coverage&quot;,
-    &quot;JUnit.PresentationTest.testNewPresentation2.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SlideTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SlideTest.testAppendSlideItem.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SlideViewerComponentTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SlideViewerComponentTest.testPaintComponent.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SlideViewerComponentTest.testUpdate.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.StyleTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.StyleTest.testNewStyle.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TextItemTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ViewMenuTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ViewMenuTest.testPerformAction.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;testing&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/Naga/Desktop/Software Quality/FinalAssignment/SoftwareQuality/src/main/java/MainProgram&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Naga/Desktop/Backup/SoftwareQuality&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.diffblue.cover.intellij.overridetestdir&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.AboutBoxTest.executor": "Run",
+    "JUnit.AboutHelpMenuTest.executor": "Run",
+    "JUnit.BitmapItemTest.executor": "Run",
+    "JUnit.BitmapItemTest.testDraw.executor": "Run",
+    "JUnit.BitmapItemTest.testGetBoundingBox.executor": "Run",
+    "JUnit.BitmapItemTest.testGettersAndSetters.executor": "Run",
+    "JUnit.BitmapItemTest.testNewBitmapItem.executor": "Run",
+    "JUnit.DemoPresentationTest.executor": "Run",
+    "JUnit.DemoPresentationTest.testLoadFile2.executor": "Coverage",
+    "JUnit.DemoPresentationTest.testSaveFile.executor": "Run",
+    "JUnit.MenuControllerTest.executor": "Run",
+    "JUnit.MenuControllerTest.testAddMenuActions.executor": "Run",
+    "JUnit.PresentationTest.executor": "Coverage",
+    "JUnit.PresentationTest.testNewPresentation2.executor": "Run",
+    "JUnit.SlideTest.executor": "Run",
+    "JUnit.SlideTest.testAppendSlideItem.executor": "Run",
+    "JUnit.SlideViewerComponentTest.executor": "Run",
+    "JUnit.SlideViewerComponentTest.testPaintComponent.executor": "Run",
+    "JUnit.SlideViewerComponentTest.testUpdate.executor": "Run",
+    "JUnit.StyleTest.executor": "Run",
+    "JUnit.StyleTest.testNewStyle.executor": "Run",
+    "JUnit.TextItemTest.executor": "Run",
+    "JUnit.ViewMenuTest.executor": "Run",
+    "JUnit.ViewMenuTest.testPerformAction.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "testing",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/Naga/Desktop/Software Quality/FinalAssignment/SoftwareQuality/src/main/java/MainProgram",
+    "last_opened_file_path": "C:/Users/Naga/Desktop/Software Quality/JabberPoint",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.build.tools.auto.reload": "ALL",
+    "settings.editor.selected.configurable": "com.diffblue.cover.intellij.overridetestdir",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
@@ -130,11 +126,11 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.jabberpoint.components" />
       <recent name="" />
       <recent name="MainProgram" />
       <recent name="Presentation" />
       <recent name="Slides" />
-      <recent name="Menu" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.jabberpoint.assessor" />
@@ -172,7 +168,7 @@
       <module name="Jabberpoint-IT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jabberpoint.menu.*" />
+          <option name="PATTERN" value="com.jabberpoint.components.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
