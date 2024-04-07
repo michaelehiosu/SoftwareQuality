@@ -1,4 +1,4 @@
-package com.jabberpoint.assessor;
+package com.jabberpoint.accessor;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NamedNodeMap;
@@ -19,7 +19,7 @@ import java.io.PrintWriter;
 import java.util.Vector;
 
 
-// Presentation.XMLAccessor, reads and writes XML files
+/** Presentation.XMLAccessor, reads and writes XML files **/
 
 public class XMLAccessor extends Accessor
 {
@@ -34,7 +34,11 @@ public class XMLAccessor extends Accessor
   protected static final String PCE = "Parser Configuration Exception";
   protected static final String UNKNOWNTYPE = "Unknown Element type";
   protected static final String NFE = "Number Format Exception";
-  private Presentation presentation;
+
+  public XMLAccessor(Presentation presentation)
+  {
+    super(presentation);
+  }
 
   private String getTitle(Element element, String tagName)
   {
@@ -43,7 +47,7 @@ public class XMLAccessor extends Accessor
 
   }
 
-  public void loadFile(Presentation presentation, String filename) throws IOException
+  public void loadFile(String filename) throws IOException
   {
     try
     {
@@ -82,7 +86,7 @@ public class XMLAccessor extends Accessor
     max = slides.getLength();
     for (slideNumber = 0; slideNumber < max; slideNumber++)
     {
-      loadSlideItems(slideNumber, slides);
+      loadItems(slideNumber, slides);
     }
   }
 
@@ -91,7 +95,7 @@ public class XMLAccessor extends Accessor
     this.presentation.setTitle(getTitle(element, SHOWTITLE));
   }
 
-  private void loadSlideItems(int slideNumber, NodeList slides)
+  private void loadItems(int slideNumber, NodeList slides)
   {
     int itemNumber;
     int maxItems;
@@ -152,7 +156,7 @@ public class XMLAccessor extends Accessor
   }
 
 
-  public void saveFile(Presentation presentation, String filename) throws IOException
+  public void saveFile(String filename) throws IOException
   {
     if (this.presentation == null)
     {

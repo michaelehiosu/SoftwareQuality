@@ -67,7 +67,6 @@ public class TextItem extends SlideItem
     return new Rectangle((int) (style.indent * scale), 0, xsize, ysize);
   }
 
-
   @Override
   public void draw(int x, int y, float scale, Graphics graphics, Style style, ImageObserver imageObserver)
   {

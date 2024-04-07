@@ -13,7 +13,7 @@ import java.awt.Graphics;
 import java.awt.Rectangle;
 
 
-// Components.SlideViewerComponent is a graphical component that can show slides
+/** Components.SlideViewerComponent is a graphical component that can show slides **/
 
 public class SlideViewerComponent extends JComponent implements PresentationObserver
 {
@@ -26,9 +26,9 @@ public class SlideViewerComponent extends JComponent implements PresentationObse
   private static final int XPOS = 1100;
   private static final int YPOS = 20;
   private Slide slide;
-  private Font labelFont = null;
-  private Presentation presentation = null;
-  private JFrame frame = null;
+  private Font labelFont;
+  private Presentation presentation;
+  private JFrame frame;
 
   public SlideViewerComponent(Presentation presentation, JFrame frame)
   {
@@ -44,15 +44,15 @@ public class SlideViewerComponent extends JComponent implements PresentationObse
   }
 
   @Override
-  public void update(Slide data)
+  public void update(Slide slide)
   {
-    if (data == null)
+    if (slide == null)
     {
       repaint();
       return;
     }
 
-    this.slide = data;
+    this.slide = slide;
     repaint();
     frame.setTitle(presentation.getTitle());
   }

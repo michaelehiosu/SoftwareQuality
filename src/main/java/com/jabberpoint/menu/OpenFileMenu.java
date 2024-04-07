@@ -1,7 +1,7 @@
 package com.jabberpoint.menu;
 
-import com.jabberpoint.assessor.Accessor;
-import com.jabberpoint.assessor.XMLAccessor;
+import com.jabberpoint.accessor.Accessor;
+import com.jabberpoint.accessor.XMLAccessor;
 import com.jabberpoint.presentation.Presentation;
 import javax.swing.JOptionPane;
 import java.awt.Frame;
@@ -32,10 +32,10 @@ public class OpenFileMenu extends SubMenus
       public void actionPerformed(ActionEvent actionEvent)
       {
         presentation.clear();
-        Accessor xmlAccessor = new XMLAccessor();
+        Accessor xmlAccessor = new XMLAccessor(presentation);
         try
         {
-          xmlAccessor.loadFile(presentation, TESTFILE);
+          xmlAccessor.loadFile(TESTFILE);
           presentation.setSlideNumber(0);
         } catch (IOException exc)
         {

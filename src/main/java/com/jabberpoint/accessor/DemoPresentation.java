@@ -1,4 +1,4 @@
-package com.jabberpoint.assessor;
+package com.jabberpoint.accessor;
 
 import com.jabberpoint.presentation.Presentation;
 import com.jabberpoint.slides.BitmapItem;
@@ -9,26 +9,25 @@ import java.io.IOException;
 class DemoPresentation extends Accessor
 {
   public static final String DEMO_NAME = "Demonstration presentation";
-  private Presentation presentation;
+
+  DemoPresentation(Presentation presentation)
+  {
+    super(presentation);
+  }
 
   @Override
-  public void loadFile(Presentation presentation, String filename) throws IOException
+  public void loadFile(String filename) throws IOException
   {
-    addPresentation(presentation);
     setPresentationTitle();
     createFirstSlide();
     createSecondSlide();
     createThirdSlide();
   }
 
-  private void addPresentation(Presentation presentation)
-  {
-    this.presentation = presentation;
-  }
 
   private void setPresentationTitle()
   {
-    this.presentation.setTitle(DEMO_NAME);
+    presentation.setTitle(DEMO_NAME);
   }
 
   private void createFirstSlide()
@@ -77,7 +76,7 @@ class DemoPresentation extends Accessor
   }
 
   @Override
-  public void saveFile(Presentation presentation, String unusedFilename) throws IOException
+  public void saveFile(String filename) throws IOException
   {
     throw new IOException("Save As->Demo! called");
   }

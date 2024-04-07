@@ -9,19 +9,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4abfe5b3-cd38-4cc8-92bf-c091af4861f3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dump.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dump.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jabberpoint/assessor/XMLAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/assessor/XMLAccessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jabberpoint/menu/ViewMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/menu/ViewMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/jabberpoint/assessor/XMLAccessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/assessor/XMLAccessorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/jabberpoint/components/SlideViewerFrameTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/jabberpoint/menu/ViewMenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/menu/ViewMenuTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invalid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/invalid.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jabberpoint/JabberPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/JabberPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jabberpoint/assessor/Accessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/accessor/Accessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jabberpoint/assessor/AssessorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/accessor/AccessorFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jabberpoint/assessor/DemoPresentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/accessor/DemoPresentation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jabberpoint/assessor/XMLAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/accessor/XMLAccessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jabberpoint/components/SlideViewerComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/components/SlideViewerComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jabberpoint/components/SlideViewerFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/components/SlideViewerFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jabberpoint/menu/OpenFileMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/menu/OpenFileMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jabberpoint/menu/SaveFileMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/menu/SaveFileMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jabberpoint/presentation/Presentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/presentation/Presentation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jabberpoint/presentation/PresentationObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/presentation/PresentationObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jabberpoint/slides/TextItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/slides/TextItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/jabberpoint/assessor/AssessorFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/accessor/AccessorFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/jabberpoint/assessor/DemoPresentationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/accessor/DemoPresentationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/jabberpoint/assessor/XMLAccessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/accessor/XMLAccessorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/com/jabberpoint/presentation/PresentationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/presentation/PresentationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/jabberpoint/slides/BitmapItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/slides/BitmapItemTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/jabberpoint/slides/SlideTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/slides/SlideTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/jabberpoint/slides/StyleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/slides/StyleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/jabberpoint/slides/TextItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/slides/TextItemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classpath.index" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +53,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/jabberpoint/assessor/AssessorFactory.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jabberpoint/accessor/AccessorFactory.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -100,7 +107,7 @@
     &quot;git-widget-placeholder&quot;: &quot;testing&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_directory_selection&quot;: &quot;C:/Users/Naga/Desktop/Software Quality/FinalAssignment/SoftwareQuality/src/main/java/MainProgram&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Naga/Desktop/Software Quality/Design/Jabberpoint-IT&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Naga/Desktop/Backup/SoftwareQuality&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -140,7 +147,20 @@
       <recent name="com.jabberpoint.assessor" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PresentationTest">
+  <component name="RunManager" selected="Application.JabberPoint">
+    <configuration name="JabberPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jabberpoint.JabberPoint" />
+      <module name="Jabberpoint-IT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jabberpoint.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BitmapItemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Jabberpoint-IT" />
       <extension name="coverage">
@@ -166,21 +186,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.jabberpoint.presentation" />
       <option name="MAIN_CLASS_NAME" value="com.jabberpoint.presentation.PresentationTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SlideTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Jabberpoint-IT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jabberpoint.slides.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jabberpoint.slides" />
-      <option name="MAIN_CLASS_NAME" value="com.jabberpoint.slides.SlideTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -245,11 +250,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JabberPoint" />
         <item itemvalue="JUnit.PresentationTest" />
         <item itemvalue="JUnit.TextItemTest" />
         <item itemvalue="JUnit.StyleTest" />
         <item itemvalue="JUnit.BitmapItemTest" />
-        <item itemvalue="JUnit.SlideTest" />
       </list>
     </recent_temporary>
   </component>
@@ -285,6 +290,7 @@
       <workItem from="1712410809744" duration="2078000" />
       <workItem from="1712412907377" duration="1071000" />
       <workItem from="1712438104659" duration="2522000" />
+      <workItem from="1712505872508" duration="328000" />
     </task>
     <servers />
   </component>

@@ -1,31 +1,31 @@
-package com.jabberpoint.assessor;
+package com.jabberpoint.accessor;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-class AssessorFactoryTest
+class AccessorFactoryTest
 {
 
-  private AssessorFactory assessorFactory;
+  private AccessorFactory accessorFactory;
 
   @BeforeEach
   void setUp()
   {
-    assessorFactory = new AssessorFactory();
+    accessorFactory = new AccessorFactory();
   }
 
   @Test
   void testCreateAssessorFactory_ShouldReturnDemoPresentation()
   {
-    Accessor result = assessorFactory.createAssessorFactory("Demo");
+    Accessor result = accessorFactory.createAccessorFactory("Demo");
     assertTrue(result instanceof DemoPresentation);
   }
 
   @Test
   void testCreateAssessorFactory_ShouldReturnXMLAccessor()
   {
-    Accessor result = assessorFactory.createAssessorFactory("XML");
+    Accessor result = accessorFactory.createAccessorFactory("XML");
     assertTrue(result instanceof XMLAccessor);
   }
 }

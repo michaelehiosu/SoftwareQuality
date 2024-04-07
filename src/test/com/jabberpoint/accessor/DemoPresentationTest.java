@@ -1,4 +1,4 @@
-package com.jabberpoint.assessor;
+package com.jabberpoint.accessor;
 
 import com.jabberpoint.presentation.Presentation;
 import org.junit.jupiter.api.BeforeEach;

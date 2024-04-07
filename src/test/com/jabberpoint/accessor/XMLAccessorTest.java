@@ -1,7 +1,6 @@
-package com.jabberpoint.assessor;
+package com.jabberpoint.accessor;
 
 import com.jabberpoint.presentation.Presentation;
-import com.jabberpoint.slides.Slide;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

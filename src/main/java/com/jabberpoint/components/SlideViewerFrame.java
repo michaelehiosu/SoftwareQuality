@@ -9,7 +9,7 @@ import java.awt.Dimension;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
-// The application window for a slideviewcomponent
+/** The application window for a slideviewcomponent **/
 
 public class SlideViewerFrame extends JFrame
 {
@@ -22,7 +22,7 @@ public class SlideViewerFrame extends JFrame
   {
     super(title);
     SlideViewerComponent slideViewerComponent = new SlideViewerComponent(presentation, this);
-    presentation.setShowView(slideViewerComponent);
+    presentation.addObserver(slideViewerComponent);
     setupWindow(slideViewerComponent, presentation);
   }
 

@@ -25,7 +25,7 @@ public class Presentation
 
   public Presentation(PresentationObserver observer)
   {
-    setShowView(observer);
+    addObserver(observer);
     clear();
   }
 
@@ -44,7 +44,7 @@ public class Presentation
     showTitle = title;
   }
 
-  public void setShowView(PresentationObserver observer)
+  public void addObserver(PresentationObserver observer)
   {
     this.presentationObservers.add(observer);
   }

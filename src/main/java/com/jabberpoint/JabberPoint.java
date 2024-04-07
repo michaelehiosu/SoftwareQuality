@@ -1,6 +1,6 @@
 package com.jabberpoint;
 
-import com.jabberpoint.assessor.AssessorFactory;
+import com.jabberpoint.accessor.AccessorFactory;
 import com.jabberpoint.components.SlideViewerFrame;
 import com.jabberpoint.presentation.Presentation;
 import com.jabberpoint.slides.Style;
@@ -28,16 +28,16 @@ public class JabberPoint
     Style.createStyles();
     Presentation presentation = new Presentation();
     new SlideViewerFrame(JABVERSION, presentation);
-    AssessorFactory factory = new AssessorFactory();
+    AccessorFactory factory = new AccessorFactory();
     try
     {
       if (argv.length == 0)
       {
-        factory.createAssessorFactory("Demo").loadFile(presentation, "");
+        factory.createAccessor("Demo", presentation).loadFile("");
       }
       else
       {
-        factory.createAssessorFactory("XML").loadFile(presentation, argv[0]);
+        factory.createAccessor("XML", presentation).loadFile(argv[0]);
       }
       presentation.setSlideNumber(0);
     } catch (IOException ex)

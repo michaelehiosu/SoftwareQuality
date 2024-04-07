@@ -27,7 +27,7 @@ class PresentationTest {
   void testSetShowView() {
 
     // Arrange and Act
-    (new Presentation()).setShowView(mock(PresentationObserver.class));
+    (new Presentation()).addObserver(mock(PresentationObserver.class));
   }
 
 

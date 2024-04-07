@@ -4,5 +4,5 @@ import com.jabberpoint.slides.Slide;
 
 public interface PresentationObserver
 {
-  void update(Slide data);
+  void update(Slide slide);
 }

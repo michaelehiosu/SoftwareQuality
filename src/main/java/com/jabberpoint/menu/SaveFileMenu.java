@@ -1,7 +1,7 @@
 package com.jabberpoint.menu;
 
-import com.jabberpoint.assessor.Accessor;
-import com.jabberpoint.assessor.XMLAccessor;
+import com.jabberpoint.accessor.Accessor;
+import com.jabberpoint.accessor.XMLAccessor;
 import com.jabberpoint.presentation.Presentation;
 import javax.swing.JOptionPane;
 import java.awt.Frame;
@@ -31,10 +31,10 @@ public class SaveFileMenu extends SubMenus
       @Override
       public void actionPerformed(ActionEvent e)
       {
-        Accessor xmlAccessor = new XMLAccessor();
+        Accessor xmlAccessor = new XMLAccessor(presentation);
         try
         {
-          xmlAccessor.saveFile(presentation, SAVEFILE);
+          xmlAccessor.saveFile(SAVEFILE);
         } catch (IOException exc)
         {
           JOptionPane.showMessageDialog(parent, IOEX + exc, SAVEERR, JOptionPane.ERROR_MESSAGE);
