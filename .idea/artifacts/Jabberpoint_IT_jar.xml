@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Jabberpoint-IT:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Jabberpoint_IT_jar</output-path>
+    <root id="archive" name="Jabberpoint-IT.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="Jabberpoint-IT" />
+    </root>
+  </artifact>
+</component>

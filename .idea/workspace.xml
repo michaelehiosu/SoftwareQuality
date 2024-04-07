@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1e6fbc4c-c9f5-41df-93f1-d09a2ab9ba9f" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="JUnit5 &amp; Mockito" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jabberpoint/accessor/AccessorFactory.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2dJqv1W44PK78ApRcBTzfRQW1PV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.AboutBoxTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AboutHelpMenuTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BitmapItemTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BitmapItemTest.testDraw.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BitmapItemTest.testGetBoundingBox.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BitmapItemTest.testGettersAndSetters.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BitmapItemTest.testNewBitmapItem.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoPresentationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DemoPresentationTest.testLoadFile2.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.DemoPresentationTest.testSaveFile.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MenuControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MenuControllerTest.testAddMenuActions.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PresentationTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.PresentationTest.testNewPresentation2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SlideTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SlideTest.testAppendSlideItem.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SlideViewerComponentTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SlideViewerComponentTest.testPaintComponent.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SlideViewerComponentTest.testUpdate.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StyleTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StyleTest.testNewStyle.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TextItemTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ViewMenuTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ViewMenuTest.testPerformAction.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;testing&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/Naga/Desktop/Software Quality/FinalAssignment/SoftwareQuality/src/main/java/MainProgram&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Naga/Desktop/Software Quality/JabberPoint&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.diffblue.cover.intellij.overridetestdir&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Naga\Desktop\Software Quality\FinalAssignment\SoftwareQuality\src\main\java" />
+      <recent name="C:\Users\Naga\Desktop\Software Quality\FinalAssignment\SoftwareQuality\src\main" />
+      <recent name="C:\Users\Naga\Desktop\Software Quality\FinalAssignment\SoftwareQuality\src\com\resources\images" />
+      <recent name="C:\Users\Naga\Desktop\Software Quality\FinalAssignment\SoftwareQuality\src\com\jabberpoint\presentation" />
+      <recent name="C:\Users\Naga\Desktop\Software Quality\FinalAssignment\SoftwareQuality\src\com\jabberpoint" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.jabberpoint.components" />
+      <recent name="" />
+      <recent name="MainProgram" />
+      <recent name="Presentation" />
+      <recent name="Slides" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.jabberpoint.assessor" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.JabberPoint">
+    <configuration name="JabberPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jabberpoint.JabberPoint" />
+      <module name="Jabberpoint-IT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jabberpoint.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.jabberpoint.components in Jabberpoint-IT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Jabberpoint-IT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jabberpoint.components.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jabberpoint.components" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.jabberpoint.menu in Jabberpoint-IT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Jabberpoint-IT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jabberpoint.menu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jabberpoint.menu" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.jabberpoint.presentation in Jabberpoint-IT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Jabberpoint-IT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jabberpoint.presentation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jabberpoint.presentation" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.jabberpoint.slides in Jabberpoint-IT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Jabberpoint-IT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jabberpoint.slides.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jabberpoint.slides" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Write tests for class Accessor" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration">
+      <module name="Jabberpoint-IT" />
+      <settings run-config-name="Write tests for class Accessor" include-system-env-vars="true" skeleton-tests-only="false">
+        <jvm-args />
+        <selection-scope>class</selection-scope>
+        <selected-element key="com.jabberpoint.assessor.Accessor" />
+      </settings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Write tests for class AssessorFactory" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration">
+      <module name="Jabberpoint-IT" />
+      <settings run-config-name="Write tests for class AssessorFactory" include-system-env-vars="true" skeleton-tests-only="false">
+        <jvm-args />
+        <selection-scope>class</selection-scope>
+        <selected-element key="com.jabberpoint.assessor.AssessorFactory" />
+      </settings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Write tests for method SlideViewerComponentTest.testUpdate" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration">
+      <module name="Jabberpoint-IT" />
+      <settings run-config-name="Write tests for method SlideViewerComponentTest.testUpdate" include-system-env-vars="true" skeleton-tests-only="false">
+        <jvm-args />
+        <selection-scope>method</selection-scope>
+        <selected-element key="com.jabberpoint.components.SlideViewerComponentTest.testUpdate:()V" />
+      </settings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JabberPoint" />
+        <item itemvalue="JUnit.com.jabberpoint.menu in Jabberpoint-IT" />
+        <item itemvalue="JUnit.com.jabberpoint.slides in Jabberpoint-IT" />
+        <item itemvalue="JUnit.com.jabberpoint.presentation in Jabberpoint-IT" />
+        <item itemvalue="JUnit.com.jabberpoint.components in Jabberpoint-IT" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-3183f394aec4-74f1fbcb" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4abfe5b3-cd38-4cc8-92bf-c091af4861f3" name="Changes" comment="" />
+      <created>1709736755860</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709736755860</updated>
+      <workItem from="1709736757221" duration="69000" />
+      <workItem from="1709809266038" duration="191000" />
+      <workItem from="1709815202199" duration="814000" />
+      <workItem from="1709851022369" duration="707000" />
+      <workItem from="1710165326932" duration="790000" />
+      <workItem from="1710360519831" duration="5357000" />
+      <workItem from="1711353584247" duration="3006000" />
+      <workItem from="1711387609652" duration="17447000" />
+      <workItem from="1712253484421" duration="10086000" />
+      <workItem from="1712307512580" duration="1464000" />
+      <workItem from="1712406838256" duration="2389000" />
+      <workItem from="1712409258609" duration="955000" />
+      <workItem from="1712410230938" duration="205000" />
+      <workItem from="1712410454552" duration="337000" />
+      <workItem from="1712410809744" duration="2078000" />
+      <workItem from="1712412907377" duration="1071000" />
+      <workItem from="1712438104659" duration="2522000" />
+      <workItem from="1712505872508" duration="328000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.configurationType" implementationName="com.diffblue.cover.write-tests-run-configuration" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SoftwareQuality$DemoPresentationTest_testLoadFile2.ic" NAME="DemoPresentationTest.testLoadFile2 Coverage Results" MODIFIED="1712435609220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.jabberpoint.assessor.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SoftwareQuality$PresentationTest.ic" NAME="PresentationTest Coverage Results" MODIFIED="1712438516609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.jabberpoint.presentation.*</FILTER>
+    </SUITE>
+  </component>
+</project>
