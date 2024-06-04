@@ -11,17 +11,17 @@ public class Style
 {
   private static final String FONTNAME = "Helvetica";
   private static Style[] styles;
-  int indent;
-  Color color;
-  Font font;
-  int fontSize;
-  int leading;
+  public final int indent;
+  public final Color color;
+  private final Font font;
+  private final int fontSize;
+  public final int leading;
 
   public Style(int indent, Color color, int points, int leading)
   {
     this.indent = indent;
     this.color = color;
-    font = new Font(FONTNAME, Font.BOLD, fontSize = points);
+    this.font = new Font(FONTNAME, Font.BOLD, fontSize = points);
     this.leading = leading;
   }
 
