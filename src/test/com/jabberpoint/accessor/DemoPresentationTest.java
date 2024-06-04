@@ -1,11 +1,14 @@
 package com.jabberpoint.accessor;
 
 import com.jabberpoint.presentation.Presentation;
+import com.jabberpoint.slides.Slide;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
@@ -36,5 +39,18 @@ class DemoPresentationTest
     assertThrows(IOException.class, () -> {
       demoPresentation.saveFile("unusedFilename");
     });
+  }
+
+  @Test
+  void testLoadFile_createsCorrectSlides() throws IOException {
+    demoPresentation.loadFile("filename");
+    Assertions.assertEquals(3, presentation.getSize()); // DemoPresentation creates 3 slides
+  }
+
+  @Test
+  void testLoadFile_createsCorrectSlideItems() throws IOException {
+    demoPresentation.loadFile("filename");
+    Slide slide = presentation.getSlide(0);
+    Assertions.assertEquals(10, slide.getSlideItems().size());
   }
 }
