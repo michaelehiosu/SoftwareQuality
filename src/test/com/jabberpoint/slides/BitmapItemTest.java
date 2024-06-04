@@ -36,5 +36,5 @@ class BitmapItemTest
 
     assertEquals("Image Name", actualBitmapItem.getName());
     assertEquals(1, actualBitmapItem.getLevel());
-  }
+  }2
 }
