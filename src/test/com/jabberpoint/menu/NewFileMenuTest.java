@@ -1,52 +1,56 @@
 package com.jabberpoint.menu;
 
 import com.jabberpoint.presentation.Presentation;
-import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.mockito.Mock;
 
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNull;
-import static org.mockito.Mockito.verify;
-import static org.mockito.MockitoAnnotations.openMocks;
+import static org.mockito.Mockito.*;
 
-class NewFileMenuTest
-{
+public class NewFileMenuTest {
 
-    @Mock
     private Presentation mockPresentation;
-    @Mock
-    private Frame mockParent;
-
-    private NewFileMenu newFileMenuUnderTest;
-
-    private AutoCloseable mockitoCloseable;
+  private NewFileMenu newFileMenuUnderTest;
 
     @BeforeEach
-    void setUp()
-    {
-        mockitoCloseable = openMocks(this);
-        newFileMenuUnderTest = new NewFileMenu(mockPresentation, mockParent);
-    }
-
-    @AfterEach
-    void tearDown() throws Exception
-    {
-        mockitoCloseable.close();
+    void setUp() {
+        mockPresentation = mock(Presentation.class);
+        Frame mockFrame = mock(Frame.class);
+        newFileMenuUnderTest = new NewFileMenu(mockPresentation, mockFrame);
     }
 
     @Test
-    void testGetName()
-    {
-        assertEquals("New", newFileMenuUnderTest.getName());
+    void testPerformAction() {
+        MenuItem mockMenuItem = mock(MenuItem.class);
+        ActionListener[] actionListeners = new ActionListener[1];
+
+        doAnswer(invocation -> {
+            actionListeners[0] = invocation.getArgument(0);
+            return null;
+        }).when(mockMenuItem).addActionListener(any(ActionListener.class));
+
+        newFileMenuUnderTest.performAction(mockMenuItem);
+
+        actionListeners[0].actionPerformed(new ActionEvent(mockMenuItem, ActionEvent.ACTION_PERFORMED, ""));
+
+        verify(mockPresentation).clear();
     }
 
     @Test
-    void testGetMenu()
-    {
-        assertNull(newFileMenuUnderTest.getMenu());
+    void testGetName() {
+        String name = newFileMenuUnderTest.getName();
+
+        Assertions.assertEquals("New", name);
+    }
+
+    @Test
+    void testGetMenu() {
+        Menu menu = newFileMenuUnderTest.getMenu();
+
+        Assertions.assertNull(menu);
     }
 }

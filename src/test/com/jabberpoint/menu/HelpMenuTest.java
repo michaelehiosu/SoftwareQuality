@@ -1,29 +1,36 @@
 package com.jabberpoint.menu;
 
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.awt.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.Mockito.verify;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.mockito.Mockito.*;
 
-class HelpMenuTest
-{
+class HelpMenuTest {
 
-    private HelpMenu helpMenuUnderTest;
-
-    @BeforeEach
-    void setUp()
-    {
-        helpMenuUnderTest = new HelpMenu();
+    @Test
+    void testConstructor() {
+        HelpMenu helpMenuUnderTest = new HelpMenu();
+        assertNotNull(helpMenuUnderTest);
     }
 
     @Test
-    void testGetName()
-    {
-        assertEquals("Help", helpMenuUnderTest.getName());
-    }
+void testPerformAction_addsChildren() {
+    HelpMenu helpMenuUnderTest = new HelpMenu();
 
+    MenuActions child = mock(MenuActions.class);
+    when(child.getName()).thenReturn("Test");
+
+    helpMenuUnderTest.addChildren(child);
+
+    MenuItem menuItem = mock(MenuItem.class);
+    helpMenuUnderTest.performAction(menuItem);
+
+    verify(child).performAction(any(MenuItem.class));
+
+    assertEquals(1, helpMenuUnderTest.getChildren().size());
+    assertEquals(child, helpMenuUnderTest.getChildren().get(0));
+}
 }
