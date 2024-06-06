@@ -4,208 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b344073d-a8a5-45cb-8905-9cb7dd76c3e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/menu/KeyControllerTest.java" afterDir="false" />
+    <list default="true" id="3b291809-9895-493c-a42a-4fecc5055e18" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/target/classes/classpath.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/classpath.index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jabberpoint/menu/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/menu/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/jabberpoint/accessor/DemoPresentationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/accessor/DemoPresentationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/jabberpoint/components/AboutBoxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/components/AboutBoxTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/com/jabberpoint/menu/ExitFileMenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/menu/ExitFileMenuTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/jabberpoint/menu/FileMenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/menu/FileMenuTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/jabberpoint/menu/GotoViewMenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/menu/GotoViewMenuTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/jabberpoint/menu/HelpMenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/menu/HelpMenuTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/jabberpoint/menu/NewFileMenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/menu/NewFileMenuTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/jabberpoint/menu/NextViewMenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/menu/NextViewMenuTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/jabberpoint/menu/OpenFileMenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/menu/OpenFileMenuTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/jabberpoint/menu/PreviousViewMenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/menu/PreviousViewMenuTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/jabberpoint/menu/ViewMenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/menu/ViewMenuTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/jabberpoint/slides/BitmapItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/slides/BitmapItemTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CoverageOptionsProvider">
-    <option name="myAddOrReplace" value="0" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Atumah"
-  }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/michaelehiosu/SoftwareQuality.git",
-    "accountId": "5f3e09b8-9a2b-4bb4-a953-c860c33138d1"
-  }
-}]]></component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/jabberpoint/accessor/AccessorFactory.java" root0="FORCE_HIGHLIGHTING" />
-  </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 4
-}]]></component>
-  <component name="ProjectId" id="2hVMNNxFLu5H02uloHD7zxQJyYK" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "JUnit.All in Jabberpoint-IT.executor": "Coverage",
-    "JUnit.ExitFileMenuTest.executor": "Run",
-    "JUnit.ExitFileMenuTest.testConstructor.executor": "Run",
-    "JUnit.ExitFileMenuTest.testPerformAction_callsExit.executor": "Run",
-    "JUnit.FileMenuTest.executor": "Run",
-    "JUnit.FileMenuTest.testPerformAction.executor": "Run",
-    "JUnit.GotoViewMenuTest.executor": "Run",
-    "JUnit.GotoViewMenuTest.testPerformAction_callsSetSlideNumber.executor": "Run",
-    "JUnit.HelpMenuTest.executor": "Run",
-    "JUnit.HelpMenuTest.testPerformAction_addsChildren.executor": "Run",
-    "JUnit.KeyControllerTest.executor": "Run",
-    "JUnit.KeyControllerTest.testKeyPressed_exit.executor": "Run",
-    "JUnit.KeyControllerTest.testKeyPressed_nextSlide.executor": "Run",
-    "JUnit.MenuControllerTest.executor": "Run",
-    "JUnit.NewFileMenuTest.executor": "Run",
-    "JUnit.NewFileMenuTest.testPerformAction.executor": "Run",
-    "JUnit.NextViewMenuTest.executor": "Run",
-    "JUnit.OpenFileMenuTest.executor": "Run",
-    "JUnit.PreviousViewMenuTest.executor": "Run",
-    "JUnit.ViewMenuTest.executor": "Run",
-    "JUnit.ViewMenuTest.testPerformAction.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TestNG.<default>.executor": "Coverage",
-    "git-widget-placeholder": "resit-dev",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+    "git-widget-placeholder": "Merging resit-dev"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.&lt;default&gt;">
-    <configuration name="PreviousViewMenuTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Jabberpoint-IT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jabberpoint.menu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jabberpoint.menu" />
-      <option name="MAIN_CLASS_NAME" value="com.jabberpoint.menu.PreviousViewMenuTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ViewMenuTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Jabberpoint-IT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jabberpoint.menu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jabberpoint.menu" />
-      <option name="MAIN_CLASS_NAME" value="com.jabberpoint.menu.ViewMenuTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ViewMenuTest.testGetMenu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Jabberpoint-IT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jabberpoint.menu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jabberpoint.menu" />
-      <option name="MAIN_CLASS_NAME" value="com.jabberpoint.menu.ViewMenuTest" />
-      <option name="METHOD_NAME" value="testGetMenu" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ViewMenuTest.testPerformAction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Jabberpoint-IT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jabberpoint.menu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jabberpoint.menu" />
-      <option name="MAIN_CLASS_NAME" value="com.jabberpoint.menu.ViewMenuTest" />
-      <option name="METHOD_NAME" value="testPerformAction" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Jabberpoint-IT" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="TestNG.&lt;default&gt;" />
-        <item itemvalue="JUnit.ViewMenuTest.testGetMenu" />
-        <item itemvalue="JUnit.ViewMenuTest" />
-        <item itemvalue="JUnit.ViewMenuTest.testPerformAction" />
-        <item itemvalue="JUnit.PreviousViewMenuTest" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
-      </set>
-    </attachedChunks>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="b344073d-a8a5-45cb-8905-9cb7dd76c3e3" name="Changes" comment="" />
-      <created>1717674751022</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1717674751022</updated>
-      <workItem from="1717674753076" duration="3776000" />
-    </task>
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SoftwareQuality$All_in_Jabberpoint_IT.ic" NAME="All in Jabberpoint-IT Coverage Results" MODIFIED="1717675429285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
-    <SUITE FILE_PATH="coverage/SoftwareQuality$_default_.ic" NAME="&lt;default&gt; Coverage Results" MODIFIED="1717678502454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/SoftwareQuality$_default_.ic" NAME="&lt;default&gt; Coverage Results" MODIFIED="1717678532979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
     <SUITE FILE_PATH="coverage/SoftwareQuality$DemoPresentationTest_testLoadFile2.ic" NAME="DemoPresentationTest.testLoadFile2 Coverage Results" MODIFIED="1712435609220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.jabberpoint.assessor.*</FILTER>
     </SUITE>

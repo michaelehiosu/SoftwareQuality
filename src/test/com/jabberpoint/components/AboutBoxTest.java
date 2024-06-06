@@ -14,12 +14,12 @@ class AboutBoxTest {
 
     @BeforeEach
     void setUp() {
-        frame = new Frame();  // Create a real Frame object
+        frame = new Frame();
     }
 
     @AfterEach
     void tearDown() {
-        frame.dispose();  // Dispose the Frame object after each test
+        frame.dispose();
     }
 
     @Test

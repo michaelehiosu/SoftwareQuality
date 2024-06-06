@@ -49,7 +49,7 @@ class ExitFileMenuTest
   @Test
   void testPerformAction()
   {
-    final MenuItem menuItem = mock(MenuItem.class); // Mock
+    final MenuItem menuItem = mock(MenuItem.class);
     exitFileMenuUnderTest.performAction(menuItem);
 
     verify(menuItem).addActionListener(any());

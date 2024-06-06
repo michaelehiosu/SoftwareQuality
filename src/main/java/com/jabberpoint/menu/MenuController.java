@@ -72,14 +72,21 @@ public class MenuController extends MenuBar
     for (MenuActions component : this.mainMenus)
     {
       component.performAction(menuItem);
-      if (Objects.equals(component.getName(), "HELP"))
-      {
-        setHelpMenu(component.getMenu()); // needed for portability (Motif, etc.)
-      }
-      else
-      {
-        add(component.getMenu());
-      }
+      setMenu(component);
+
+    }
+  }
+
+
+  private void setMenu(MenuActions component)
+  {
+    if (Objects.equals(component.getName(), "HELP"))
+    {
+      setHelpMenu(component.getMenu()); // needed for portability (Motif, etc.)
+    }
+    else
+    {
+      add(component.getMenu());
     }
   }
 }
