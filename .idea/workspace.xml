@@ -97,7 +97,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ViewMenuTest.testGetMenu">
+  <component name="RunManager" selected="TestNG.&lt;default&gt;">
     <configuration name="PreviousViewMenuTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Jabberpoint-IT" />
       <extension name="coverage">
@@ -172,8 +172,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ViewMenuTest.testGetMenu" />
         <item itemvalue="TestNG.&lt;default&gt;" />
+        <item itemvalue="JUnit.ViewMenuTest.testGetMenu" />
         <item itemvalue="JUnit.ViewMenuTest" />
         <item itemvalue="JUnit.ViewMenuTest.testPerformAction" />
         <item itemvalue="JUnit.PreviousViewMenuTest" />
