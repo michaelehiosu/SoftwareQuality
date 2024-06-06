@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b344073d-a8a5-45cb-8905-9cb7dd76c3e3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jabberpoint/menu/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jabberpoint/menu/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/jabberpoint/accessor/DemoPresentationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/accessor/DemoPresentationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/jabberpoint/components/AboutBoxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/components/AboutBoxTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/jabberpoint/menu/ExitFileMenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/menu/ExitFileMenuTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/jabberpoint/slides/BitmapItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/slides/BitmapItemTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,14 +20,73 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="b08e9023-b781-4384-9336-a406f177eba7" />
+        <option name="url" value="https://github.com/michaelehiosu/SoftwareQuality.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/com/jabberpoint/accessor/AccessorFactory.java" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2hVM98ZEVqWNuhp9A2lSoufFbDP" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="All in Jabberpoint-IT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Jabberpoint-IT" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in Jabberpoint-IT" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b344073d-a8a5-45cb-8905-9cb7dd76c3e3" name="Changes" comment="" />
+      <created>1717674641155</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717674641155</updated>
+      <workItem from="1717674643486" duration="2255000" />
+    </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SoftwareQuality$DemoPresentationTest_testLoadFile2.ic" NAME="DemoPresentationTest.testLoadFile2 Coverage Results" MODIFIED="1712435609220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -31,5 +95,6 @@
     <SUITE FILE_PATH="coverage/SoftwareQuality$PresentationTest.ic" NAME="PresentationTest Coverage Results" MODIFIED="1712438516609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.jabberpoint.presentation.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/SoftwareQuality$All_in_Jabberpoint_IT.ic" NAME="All in Jabberpoint-IT Coverage Results" MODIFIED="1717531064951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

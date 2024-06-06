@@ -44,7 +44,7 @@ class DemoPresentationTest
   @Test
   void testLoadFile_createsCorrectSlides() throws IOException {
     demoPresentation.loadFile("filename");
-    Assertions.assertEquals(3, presentation.getSize()); // DemoPresentation creates 3 slides
+    Assertions.assertEquals(3, presentation.getSize());
   }
 
   @Test

@@ -10,16 +10,13 @@ class BitmapItemTest
   @Test
   void testGettersAndSetters()
   {
-
     String imageName = "testImage.jpg";
     BitmapItem bitmapItem = new BitmapItem(1, imageName);
     String actualName = bitmapItem.getName();
     String actualToStringResult = bitmapItem.toString();
-
     assertEquals(imageName, actualName);
     assertNotNull(actualToStringResult);
   }
-
 
   @Test
   void testNewBitmapItem()
@@ -28,12 +25,10 @@ class BitmapItemTest
     assertNotNull(bitmapItem);
   }
 
-
   @Test
   void testNewBitmapItem2()
   {
     BitmapItem actualBitmapItem = new BitmapItem(1, "Image Name");
-
     assertEquals("Image Name", actualBitmapItem.getName());
     assertEquals(1, actualBitmapItem.getLevel());
   }
