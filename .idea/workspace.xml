@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b291809-9895-493c-a42a-4fecc5055e18" name="Changes" comment="">
+    <list default="true" id="b344073d-a8a5-45cb-8905-9cb7dd76c3e3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/jabberpoint/slides/BitmapItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/slides/BitmapItemTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/jabberpoint/slides/SlideTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/slides/SlideTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/jabberpoint/accessor/XMLAccessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/accessor/XMLAccessorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/com/jabberpoint/slides/TextItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/jabberpoint/slides/TextItemTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,39 +20,34 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/jabberpoint/accessor/AccessorFactory.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.BitmapItemTest.testDraw.executor": "Run",
-    "JUnit.BitmapItemTest.testGetBoundingBox.executor": "Run",
-    "JUnit.BitmapItemTest.testGetLevel.executor": "Run",
-    "JUnit.BitmapItemTest.testGetName.executor": "Run",
-    "JUnit.SlideTest.executor": "Run",
-    "JUnit.SlideTest.testGetSlideItem.executor": "Run",
-    "JUnit.SlideTest.testGetTitle.executor": "Run",
-    "JUnit.TextItemTest.executor": "Run",
-    "JUnit.TextItemTest.testGetAttributedString_withTextItem2_shouldNotThrowException.executor": "Run",
-    "JUnit.test in Jabberpoint-IT.executor": "Coverage",
-    "git-widget-placeholder": "resit-dev",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.BitmapItemTest.testDraw.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BitmapItemTest.testGetBoundingBox.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BitmapItemTest.testGetLevel.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BitmapItemTest.testGetName.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SlideTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SlideTest.testGetSlideItem.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SlideTest.testGetTitle.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TextItemTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TextItemTest.testGetAttributedString_withTextItem2_shouldNotThrowException.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.test in Jabberpoint-IT.executor&quot;: &quot;Coverage&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;resit-dev&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.test in Jabberpoint-IT">
-    <configuration name="BitmapItemTest.testGetBoundingBox" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="JUnit.All in Jabberpoint-IT">
+    <configuration name="All in Jabberpoint-IT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Jabberpoint-IT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jabberpoint.slides.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jabberpoint.slides" />
-      <option name="MAIN_CLASS_NAME" value="com.jabberpoint.slides.BitmapItemTest" />
-      <option name="METHOD_NAME" value="testGetBoundingBox" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in Jabberpoint-IT" />
         <item itemvalue="JUnit.test in Jabberpoint-IT" />
         <item itemvalue="JUnit.SlideTest" />
         <item itemvalue="JUnit.SlideTest.testGetSlideItem" />
         <item itemvalue="JUnit.SlideTest.testGetTitle" />
-        <item itemvalue="JUnit.BitmapItemTest.testGetBoundingBox" />
       </list>
     </recent_temporary>
   </component>
@@ -135,8 +129,6 @@
     <servers />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/SoftwareQuality$All_in_Jabberpoint_IT.ic" NAME="All in Jabberpoint-IT Coverage Results" MODIFIED="1717675429285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
-    <SUITE FILE_PATH="coverage/SoftwareQuality$_default_.ic" NAME="&lt;default&gt; Coverage Results" MODIFIED="1717678532979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
     <SUITE FILE_PATH="coverage/SoftwareQuality$DemoPresentationTest_testLoadFile2.ic" NAME="DemoPresentationTest.testLoadFile2 Coverage Results" MODIFIED="1712435609220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.jabberpoint.assessor.*</FILTER>
     </SUITE>
@@ -144,5 +136,7 @@
       <FILTER>com.jabberpoint.presentation.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/SoftwareQuality$test_in_Jabberpoint_IT.ic" NAME="test in Jabberpoint-IT Coverage Results" MODIFIED="1717680294328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/SoftwareQuality$All_in_Jabberpoint_IT.ic" NAME="All in Jabberpoint-IT Coverage Results" MODIFIED="1717706548966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/SoftwareQuality$_default_.ic" NAME="&lt;default&gt; Coverage Results" MODIFIED="1717678532979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>

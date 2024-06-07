@@ -35,8 +35,6 @@ class TextItemTest {
         assertEquals("Slides.TextItem[1,Text]", textItem1.toString());
     }
 
-    // New tests
-
     @Test
     void testGetLevel_withTextItem1_shouldReturnCorrectLevel() {
         assertEquals(1, textItem1.getLevel());

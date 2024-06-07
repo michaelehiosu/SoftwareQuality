@@ -32,7 +32,6 @@ class XMLAccessorTest
     });
   }
 
-  // Additional tests for XMLAccessor
   @Test
   void testLoadFile_correctFileName_createsCorrectSlides() throws IOException {
     xMLAccessor.loadFile("test.xml");
