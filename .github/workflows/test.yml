@@ -3,9 +3,9 @@ name: Unit Test Workflow
 
 on:
   push:
-    branches: [ "testing"]
+    branches: [ "testing", "resit-dev"]
   pull_request:
-    branches: [ "testing"]
+    branches: [ "testing", "resit-dev"]
 
 jobs:
   run_tests:

@@ -1,52 +1,56 @@
 package com.jabberpoint.menu;
 
 import com.jabberpoint.presentation.Presentation;
-import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.mockito.Mock;
 
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNull;
-import static org.mockito.Mockito.verify;
-import static org.mockito.MockitoAnnotations.openMocks;
+import static org.mockito.Mockito.*;
 
-class PreviousViewMenuTest
-{
+public class PreviousViewMenuTest {
 
-    @Mock
     private Presentation mockPresentation;
-    @Mock
-    private Frame mockParent;
-
-    private PreviousViewMenu previousViewMenuUnderTest;
-
-    private AutoCloseable mockitoCloseable;
+  private PreviousViewMenu previousViewMenuUnderTest;
 
     @BeforeEach
-    void setUp() throws Exception
-    {
-        mockitoCloseable = openMocks(this);
-        previousViewMenuUnderTest = new PreviousViewMenu(mockPresentation, mockParent);
-    }
-
-    @AfterEach
-    void tearDown() throws Exception
-    {
-        mockitoCloseable.close();
+    void setUp() {
+        mockPresentation = mock(Presentation.class);
+      Frame mockFrame = mock(Frame.class);
+        previousViewMenuUnderTest = new PreviousViewMenu(mockPresentation, mockFrame);
     }
 
     @Test
-    void testGetName() throws Exception
-    {
-        assertEquals("Prev", previousViewMenuUnderTest.getName());
+    void testPerformAction() {
+        MenuItem mockMenuItem = mock(MenuItem.class);
+        ActionListener[] actionListeners = new ActionListener[1];
+
+        doAnswer(invocation -> {
+            actionListeners[0] = invocation.getArgument(0);
+            return null;
+        }).when(mockMenuItem).addActionListener(any(ActionListener.class));
+
+        previousViewMenuUnderTest.performAction(mockMenuItem);
+
+        actionListeners[0].actionPerformed(new ActionEvent(mockMenuItem, ActionEvent.ACTION_PERFORMED, ""));
+
+        verify(mockPresentation).prevSlide();
     }
 
     @Test
-    void testGetMenu()
-    {
-        assertNull(previousViewMenuUnderTest.getMenu());
+    void testGetName() {
+        String name = previousViewMenuUnderTest.getName();
+
+        Assertions.assertEquals("Prev", name);
+    }
+
+    @Test
+    void testGetMenu() {
+        Menu menu = previousViewMenuUnderTest.getMenu();
+
+        Assertions.assertNull(menu);
     }
 }

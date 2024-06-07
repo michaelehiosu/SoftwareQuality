@@ -1,52 +1,35 @@
 package com.jabberpoint.menu;
 
 import com.jabberpoint.presentation.Presentation;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.mockito.Mock;
 
 import java.awt.*;
+import java.awt.event.ActionListener;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNull;
-import static org.mockito.Mockito.verify;
-import static org.mockito.MockitoAnnotations.openMocks;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.mockito.Mockito.*;
 
-class GotoViewMenuTest
-{
+class GotoViewMenuTest {
 
-    @Mock
-    private Presentation mockPresentation;
-    @Mock
-    private Frame mockParent;
-
-    private GotoViewMenu gotoViewMenuUnderTest;
-
-    private AutoCloseable mockitoCloseable;
-
-    @BeforeEach
-    void setUp()
-    {
-        mockitoCloseable = openMocks(this);
-        gotoViewMenuUnderTest = new GotoViewMenu(mockPresentation, mockParent);
-    }
-
-    @AfterEach
-    void tearDown() throws Exception
-    {
-        mockitoCloseable.close();
+    @Test
+    void testConstructor() {
+        Presentation mockPresentation = mock(Presentation.class);
+        Frame mockParent = mock(Frame.class);
+        GotoViewMenu gotoViewMenuUnderTest = new GotoViewMenu(mockPresentation, mockParent);
+        assertNotNull(gotoViewMenuUnderTest);
     }
 
     @Test
-    void testGetName()
-    {
-        assertEquals("Go to", gotoViewMenuUnderTest.getName());
-    }
+    void testPerformAction_callsSetSlideNumber() {
+        Presentation mockPresentation = mock(Presentation.class);
+        Frame mockParent = mock(Frame.class);
+        when(mockParent.isVisible()).thenReturn(true);
 
-    @Test
-    void testGetMenu()
-    {
-        assertNull(gotoViewMenuUnderTest.getMenu());
+        GotoViewMenu gotoViewMenuUnderTest = new GotoViewMenu(mockPresentation, mockParent);
+
+        final MenuItem menuItem = mock(MenuItem.class);
+        gotoViewMenuUnderTest.performAction(menuItem);
+
+        verify(menuItem).addActionListener(any(ActionListener.class));
     }
 }

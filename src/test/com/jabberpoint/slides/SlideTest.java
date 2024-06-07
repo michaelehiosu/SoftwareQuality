@@ -62,4 +62,21 @@ class SlideTest
     assertEquals("Dr", actualSlide.getTitle());
     assertSame(actualSlide.items, actualSlideItems);
   }
+
+  @Test
+  void testGetTitle() {
+    String title = "Test Title";
+    Slide slide = new Slide();
+    slide.setTitle(title);
+    assertEquals(title, slide.getTitle());
+  }
+
+
+  @Test
+  void testGetSlideItem() {
+    Slide slide = new Slide();
+    TextItem textItem = new TextItem(1, "Test Text");
+    slide.appendSlideItem(textItem);
+    assertSame(textItem, slide.getSlideItem(0));
+  }
 }
